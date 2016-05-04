@@ -1,0 +1,6 @@
+framework module Pods_PatientLib_Example {
+  umbrella header "Pods-PatientLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

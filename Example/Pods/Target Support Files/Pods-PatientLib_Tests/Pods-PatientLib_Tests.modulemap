@@ -1,0 +1,6 @@
+framework module Pods_PatientLib_Tests {
+  umbrella header "Pods-PatientLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

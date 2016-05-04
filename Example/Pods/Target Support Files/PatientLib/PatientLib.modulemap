@@ -1,0 +1,6 @@
+framework module PatientLib {
+  umbrella header "PatientLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
