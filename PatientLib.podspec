@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/CareOtter/PatientLib.git", :tag => s.version.to_s }
 
 s.prepare_command = <<-CMD
+echo 'Installing Now!'
 echo '// Comment' >> Classes/SampleClass.h'
 CMD
 
