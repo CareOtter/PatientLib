@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PatientLib_Example', :exclusive => true do
+  pod 'PatientLib', :path => '../'
+end
+
+target 'PatientLib_Tests', :exclusive => true do
+  pod 'PatientLib', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+end
