@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
 s.prepare_command = <<-CMD
 echo 'Installing Now!'
-echo '// Comment' >> Classes/SampleClass.h'
+echo '// Comment' >> PatientLib/Classes/SampleClass.h
 CMD
 
 s.ios.deployment_target = '8.0'
