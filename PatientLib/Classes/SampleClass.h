@@ -11,4 +11,4 @@
   
 @end
 
-#endif /* SampleClass_h */
+#endif /* SampleClass_h */// Comment

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PatientLib"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A library of data transfer objects to be used with the CareOtter cloud storage repository."
 
 # This description is used to generate tags and improve search results.
