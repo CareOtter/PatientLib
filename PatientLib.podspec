@@ -23,7 +23,12 @@ Pod::Spec.new do |s|
   s.author           = { "Scott Mueller" => "scott.mueller@careotter.com" }
   s.source           = { :git => "https://github.com/CareOtter/PatientLib.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+#s.prepare_command = <<-CMD
+#sed -i 's/MyNameSpacedHeader/Header/g' ./**/*.h
+#sed -i 's/MyNameOtherSpacedHeader/OtherHeader/g' ./**/*.h
+#CMD
+
+s.ios.deployment_target = '8.0'
 
   s.source_files = 'PatientLib/Classes/**/*'
   

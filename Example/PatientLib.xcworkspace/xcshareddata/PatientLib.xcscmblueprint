@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0BDA903852DE7F3382DBEC3132DB4CED375628EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CBAAEA7CF5666A171EF06D0D75FBBE8CDBCB503E" : 0,
+    "0BDA903852DE7F3382DBEC3132DB4CED375628EF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF00200E-B816-400D-9D74-D5971468FE01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CBAAEA7CF5666A171EF06D0D75FBBE8CDBCB503E" : "",
+    "0BDA903852DE7F3382DBEC3132DB4CED375628EF" : "PatientLib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PatientLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PatientLib.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CareOtter\/PatientLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BDA903852DE7F3382DBEC3132DB4CED375628EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CareOtter\/PatientLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBAAEA7CF5666A171EF06D0D75FBBE8CDBCB503E"
+    }
+  ]
+}
