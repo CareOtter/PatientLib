@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PatientLib"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "A library of data transfer objects to be used with the CareOtter cloud storage repository."
 
 # This description is used to generate tags and improve search results.
@@ -22,13 +22,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Scott Mueller" => "scott.mueller@careotter.com" }
   s.source           = { :git => "https://github.com/CareOtter/PatientLib.git", :tag => s.version.to_s }
-
-s.prepare_command = <<-CMD
-echo 'Installing Now!'
-echo '// Comment' >> PatientLib/Classes/SampleClass.h
-CMD
-
-s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'PatientLib/Classes/**/*'
   
