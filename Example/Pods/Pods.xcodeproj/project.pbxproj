@@ -8,7 +8,297 @@
 
 /* Begin PBXBuildFile section */
 		05982FFCA7BC38372C8C423F552E0544 /* Pods-PatientLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BFABA85F0AC3E63CB5BE15ABB4B49A /* Pods-PatientLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		087CBDD21CDA317700DB8FAE /* SampleClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 087CBDD11CDA317700DB8FAE /* SampleClass.h */; };
+		089A9AE41CEA3D7300EE36F7 /* Allergy_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A351CEA3D7300EE36F7 /* Allergy_apply.cpp */; };
+		089A9AE51CEA3D7300EE36F7 /* Allergy_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A361CEA3D7300EE36F7 /* Allergy_apply.h */; };
+		089A9AE61CEA3D7300EE36F7 /* Allergy_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A371CEA3D7300EE36F7 /* Allergy_reflection.h */; };
+		089A9AE71CEA3D7300EE36F7 /* Allergy_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A381CEA3D7300EE36F7 /* Allergy_types.cpp */; };
+		089A9AE81CEA3D7300EE36F7 /* Allergy_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A391CEA3D7300EE36F7 /* Allergy_types.h */; };
+		089A9AE91CEA3D7300EE36F7 /* Appointment_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A3A1CEA3D7300EE36F7 /* Appointment_apply.cpp */; };
+		089A9AEA1CEA3D7300EE36F7 /* Appointment_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A3B1CEA3D7300EE36F7 /* Appointment_apply.h */; };
+		089A9AEB1CEA3D7300EE36F7 /* Appointment_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A3C1CEA3D7300EE36F7 /* Appointment_reflection.h */; };
+		089A9AEC1CEA3D7300EE36F7 /* Appointment_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A3D1CEA3D7300EE36F7 /* Appointment_types.cpp */; };
+		089A9AED1CEA3D7300EE36F7 /* Appointment_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A3E1CEA3D7300EE36F7 /* Appointment_types.h */; };
+		089A9AEE1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A3F1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.cpp */; };
+		089A9AEF1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A401CEA3D7300EE36F7 /* AppointmentMaterialization_apply.h */; };
+		089A9AF01CEA3D7300EE36F7 /* AppointmentMaterialization_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A411CEA3D7300EE36F7 /* AppointmentMaterialization_reflection.h */; };
+		089A9AF11CEA3D7300EE36F7 /* AppointmentMaterialization_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A421CEA3D7300EE36F7 /* AppointmentMaterialization_types.cpp */; };
+		089A9AF21CEA3D7300EE36F7 /* AppointmentMaterialization_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A431CEA3D7300EE36F7 /* AppointmentMaterialization_types.h */; };
+		089A9AF31CEA3D7300EE36F7 /* BaseClasses_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A441CEA3D7300EE36F7 /* BaseClasses_apply.cpp */; };
+		089A9AF41CEA3D7300EE36F7 /* BaseClasses_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A451CEA3D7300EE36F7 /* BaseClasses_apply.h */; };
+		089A9AF51CEA3D7300EE36F7 /* BaseClasses_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A461CEA3D7300EE36F7 /* BaseClasses_reflection.h */; };
+		089A9AF61CEA3D7300EE36F7 /* BaseClasses_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A471CEA3D7300EE36F7 /* BaseClasses_types.cpp */; };
+		089A9AF71CEA3D7300EE36F7 /* BaseClasses_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A481CEA3D7300EE36F7 /* BaseClasses_types.h */; };
+		089A9AF81CEA3D7300EE36F7 /* BaseObservation_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A491CEA3D7300EE36F7 /* BaseObservation_apply.cpp */; };
+		089A9AF91CEA3D7300EE36F7 /* BaseObservation_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A4A1CEA3D7300EE36F7 /* BaseObservation_apply.h */; };
+		089A9AFA1CEA3D7300EE36F7 /* BaseObservation_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A4B1CEA3D7300EE36F7 /* BaseObservation_reflection.h */; };
+		089A9AFB1CEA3D7300EE36F7 /* BaseObservation_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A4C1CEA3D7300EE36F7 /* BaseObservation_types.cpp */; };
+		089A9AFC1CEA3D7300EE36F7 /* BaseObservation_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A4D1CEA3D7300EE36F7 /* BaseObservation_types.h */; };
+		089A9AFD1CEA3D7300EE36F7 /* BaseObservationSet_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A4E1CEA3D7300EE36F7 /* BaseObservationSet_apply.cpp */; };
+		089A9AFE1CEA3D7300EE36F7 /* BaseObservationSet_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A4F1CEA3D7300EE36F7 /* BaseObservationSet_apply.h */; };
+		089A9AFF1CEA3D7300EE36F7 /* BaseObservationSet_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A501CEA3D7300EE36F7 /* BaseObservationSet_reflection.h */; };
+		089A9B001CEA3D7300EE36F7 /* BaseObservationSet_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A511CEA3D7300EE36F7 /* BaseObservationSet_types.cpp */; };
+		089A9B011CEA3D7300EE36F7 /* BaseObservationSet_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A521CEA3D7300EE36F7 /* BaseObservationSet_types.h */; };
+		089A9B021CEA3D7300EE36F7 /* BasePerson_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A531CEA3D7300EE36F7 /* BasePerson_apply.cpp */; };
+		089A9B031CEA3D7300EE36F7 /* BasePerson_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A541CEA3D7300EE36F7 /* BasePerson_apply.h */; };
+		089A9B041CEA3D7300EE36F7 /* BasePerson_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A551CEA3D7300EE36F7 /* BasePerson_reflection.h */; };
+		089A9B051CEA3D7300EE36F7 /* BasePerson_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A561CEA3D7300EE36F7 /* BasePerson_types.cpp */; };
+		089A9B061CEA3D7300EE36F7 /* BasePerson_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A571CEA3D7300EE36F7 /* BasePerson_types.h */; };
+		089A9B071CEA3D7300EE36F7 /* BillingAccount_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A581CEA3D7300EE36F7 /* BillingAccount_apply.cpp */; };
+		089A9B081CEA3D7300EE36F7 /* BillingAccount_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A591CEA3D7300EE36F7 /* BillingAccount_apply.h */; };
+		089A9B091CEA3D7300EE36F7 /* BillingAccount_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A5A1CEA3D7300EE36F7 /* BillingAccount_reflection.h */; };
+		089A9B0A1CEA3D7300EE36F7 /* BillingAccount_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A5B1CEA3D7300EE36F7 /* BillingAccount_types.cpp */; };
+		089A9B0B1CEA3D7300EE36F7 /* BillingAccount_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A5C1CEA3D7300EE36F7 /* BillingAccount_types.h */; };
+		089A9B0C1CEA3D7300EE36F7 /* BillingProcedure_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A5D1CEA3D7300EE36F7 /* BillingProcedure_apply.cpp */; };
+		089A9B0D1CEA3D7300EE36F7 /* BillingProcedure_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A5E1CEA3D7300EE36F7 /* BillingProcedure_apply.h */; };
+		089A9B0E1CEA3D7300EE36F7 /* BillingProcedure_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A5F1CEA3D7300EE36F7 /* BillingProcedure_reflection.h */; };
+		089A9B0F1CEA3D7300EE36F7 /* BillingProcedure_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A601CEA3D7300EE36F7 /* BillingProcedure_types.cpp */; };
+		089A9B101CEA3D7300EE36F7 /* BillingProcedure_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A611CEA3D7300EE36F7 /* BillingProcedure_types.h */; };
+		089A9B111CEA3D7300EE36F7 /* Content_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A621CEA3D7300EE36F7 /* Content_apply.cpp */; };
+		089A9B121CEA3D7300EE36F7 /* Content_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A631CEA3D7300EE36F7 /* Content_apply.h */; };
+		089A9B131CEA3D7300EE36F7 /* Content_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A641CEA3D7300EE36F7 /* Content_reflection.h */; };
+		089A9B141CEA3D7300EE36F7 /* Content_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A651CEA3D7300EE36F7 /* Content_types.cpp */; };
+		089A9B151CEA3D7300EE36F7 /* Content_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A661CEA3D7300EE36F7 /* Content_types.h */; };
+		089A9B161CEA3D7300EE36F7 /* Examination_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A671CEA3D7300EE36F7 /* Examination_apply.cpp */; };
+		089A9B171CEA3D7300EE36F7 /* Examination_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A681CEA3D7300EE36F7 /* Examination_apply.h */; };
+		089A9B181CEA3D7300EE36F7 /* Examination_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A691CEA3D7300EE36F7 /* Examination_reflection.h */; };
+		089A9B191CEA3D7300EE36F7 /* Examination_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A6A1CEA3D7300EE36F7 /* Examination_types.cpp */; };
+		089A9B1A1CEA3D7300EE36F7 /* Examination_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A6B1CEA3D7300EE36F7 /* Examination_types.h */; };
+		089A9B1B1CEA3D7300EE36F7 /* FamilyProblem_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A6C1CEA3D7300EE36F7 /* FamilyProblem_apply.cpp */; };
+		089A9B1C1CEA3D7300EE36F7 /* FamilyProblem_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A6D1CEA3D7300EE36F7 /* FamilyProblem_apply.h */; };
+		089A9B1D1CEA3D7300EE36F7 /* FamilyProblem_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A6E1CEA3D7300EE36F7 /* FamilyProblem_reflection.h */; };
+		089A9B1E1CEA3D7300EE36F7 /* FamilyProblem_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A6F1CEA3D7300EE36F7 /* FamilyProblem_types.cpp */; };
+		089A9B1F1CEA3D7300EE36F7 /* FamilyProblem_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A701CEA3D7300EE36F7 /* FamilyProblem_types.h */; };
+		089A9B201CEA3D7300EE36F7 /* HealthRecord_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A711CEA3D7300EE36F7 /* HealthRecord_apply.cpp */; };
+		089A9B211CEA3D7300EE36F7 /* HealthRecord_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A721CEA3D7300EE36F7 /* HealthRecord_apply.h */; };
+		089A9B221CEA3D7300EE36F7 /* HealthRecord_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A731CEA3D7300EE36F7 /* HealthRecord_reflection.h */; };
+		089A9B231CEA3D7300EE36F7 /* HealthRecord_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A741CEA3D7300EE36F7 /* HealthRecord_types.cpp */; };
+		089A9B241CEA3D7300EE36F7 /* HealthRecord_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A751CEA3D7300EE36F7 /* HealthRecord_types.h */; };
+		089A9B251CEA3D7300EE36F7 /* ImageResource_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A761CEA3D7300EE36F7 /* ImageResource_apply.cpp */; };
+		089A9B261CEA3D7300EE36F7 /* ImageResource_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A771CEA3D7300EE36F7 /* ImageResource_apply.h */; };
+		089A9B271CEA3D7300EE36F7 /* ImageResource_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A781CEA3D7300EE36F7 /* ImageResource_reflection.h */; };
+		089A9B281CEA3D7300EE36F7 /* ImageResource_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A791CEA3D7300EE36F7 /* ImageResource_types.cpp */; };
+		089A9B291CEA3D7300EE36F7 /* ImageResource_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A7A1CEA3D7300EE36F7 /* ImageResource_types.h */; };
+		089A9B2A1CEA3D7300EE36F7 /* Immunization_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A7B1CEA3D7300EE36F7 /* Immunization_apply.cpp */; };
+		089A9B2B1CEA3D7300EE36F7 /* Immunization_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A7C1CEA3D7300EE36F7 /* Immunization_apply.h */; };
+		089A9B2C1CEA3D7300EE36F7 /* Immunization_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A7D1CEA3D7300EE36F7 /* Immunization_reflection.h */; };
+		089A9B2D1CEA3D7300EE36F7 /* Immunization_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A7E1CEA3D7300EE36F7 /* Immunization_types.cpp */; };
+		089A9B2E1CEA3D7300EE36F7 /* Immunization_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A7F1CEA3D7300EE36F7 /* Immunization_types.h */; };
+		089A9B2F1CEA3D7300EE36F7 /* IndexSearch_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A801CEA3D7300EE36F7 /* IndexSearch_apply.cpp */; };
+		089A9B301CEA3D7300EE36F7 /* IndexSearch_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A811CEA3D7300EE36F7 /* IndexSearch_apply.h */; };
+		089A9B311CEA3D7300EE36F7 /* IndexSearch_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A821CEA3D7300EE36F7 /* IndexSearch_reflection.h */; };
+		089A9B321CEA3D7300EE36F7 /* IndexSearch_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A831CEA3D7300EE36F7 /* IndexSearch_types.cpp */; };
+		089A9B331CEA3D7300EE36F7 /* IndexSearch_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A841CEA3D7300EE36F7 /* IndexSearch_types.h */; };
+		089A9B341CEA3D7300EE36F7 /* InsurancePolicy_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A851CEA3D7300EE36F7 /* InsurancePolicy_apply.cpp */; };
+		089A9B351CEA3D7300EE36F7 /* InsurancePolicy_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A861CEA3D7300EE36F7 /* InsurancePolicy_apply.h */; };
+		089A9B361CEA3D7300EE36F7 /* InsurancePolicy_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A871CEA3D7300EE36F7 /* InsurancePolicy_reflection.h */; };
+		089A9B371CEA3D7300EE36F7 /* InsurancePolicy_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A881CEA3D7300EE36F7 /* InsurancePolicy_types.cpp */; };
+		089A9B381CEA3D7300EE36F7 /* InsurancePolicy_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A891CEA3D7300EE36F7 /* InsurancePolicy_types.h */; };
+		089A9B391CEA3D7300EE36F7 /* InteractionSchema_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A8A1CEA3D7300EE36F7 /* InteractionSchema_apply.cpp */; };
+		089A9B3A1CEA3D7300EE36F7 /* InteractionSchema_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A8B1CEA3D7300EE36F7 /* InteractionSchema_apply.h */; };
+		089A9B3B1CEA3D7300EE36F7 /* InteractionSchema_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A8C1CEA3D7300EE36F7 /* InteractionSchema_reflection.h */; };
+		089A9B3C1CEA3D7300EE36F7 /* InteractionSchema_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A8D1CEA3D7300EE36F7 /* InteractionSchema_types.cpp */; };
+		089A9B3D1CEA3D7300EE36F7 /* InteractionSchema_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A8E1CEA3D7300EE36F7 /* InteractionSchema_types.h */; };
+		089A9B3E1CEA3D7300EE36F7 /* Invoice_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A8F1CEA3D7300EE36F7 /* Invoice_apply.cpp */; };
+		089A9B3F1CEA3D7300EE36F7 /* Invoice_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A901CEA3D7300EE36F7 /* Invoice_apply.h */; };
+		089A9B401CEA3D7300EE36F7 /* Invoice_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A911CEA3D7300EE36F7 /* Invoice_reflection.h */; };
+		089A9B411CEA3D7300EE36F7 /* Invoice_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A921CEA3D7300EE36F7 /* Invoice_types.cpp */; };
+		089A9B421CEA3D7300EE36F7 /* Invoice_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A931CEA3D7300EE36F7 /* Invoice_types.h */; };
+		089A9B431CEA3D7300EE36F7 /* Measurement_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A941CEA3D7300EE36F7 /* Measurement_apply.cpp */; };
+		089A9B441CEA3D7300EE36F7 /* Measurement_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A951CEA3D7300EE36F7 /* Measurement_apply.h */; };
+		089A9B451CEA3D7300EE36F7 /* Measurement_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A961CEA3D7300EE36F7 /* Measurement_reflection.h */; };
+		089A9B461CEA3D7300EE36F7 /* Measurement_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A971CEA3D7300EE36F7 /* Measurement_types.cpp */; };
+		089A9B471CEA3D7300EE36F7 /* Measurement_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A981CEA3D7300EE36F7 /* Measurement_types.h */; };
+		089A9B481CEA3D7300EE36F7 /* Medication_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A991CEA3D7300EE36F7 /* Medication_apply.cpp */; };
+		089A9B491CEA3D7300EE36F7 /* Medication_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A9A1CEA3D7300EE36F7 /* Medication_apply.h */; };
+		089A9B4A1CEA3D7300EE36F7 /* Medication_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A9B1CEA3D7300EE36F7 /* Medication_reflection.h */; };
+		089A9B4B1CEA3D7300EE36F7 /* Medication_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A9C1CEA3D7300EE36F7 /* Medication_types.cpp */; };
+		089A9B4C1CEA3D7300EE36F7 /* Medication_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A9D1CEA3D7300EE36F7 /* Medication_types.h */; };
+		089A9B4D1CEA3D7300EE36F7 /* Note_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9A9E1CEA3D7300EE36F7 /* Note_apply.cpp */; };
+		089A9B4E1CEA3D7300EE36F7 /* Note_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9A9F1CEA3D7300EE36F7 /* Note_apply.h */; };
+		089A9B4F1CEA3D7300EE36F7 /* Note_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA01CEA3D7300EE36F7 /* Note_reflection.h */; };
+		089A9B501CEA3D7300EE36F7 /* Note_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AA11CEA3D7300EE36F7 /* Note_types.cpp */; };
+		089A9B511CEA3D7300EE36F7 /* Note_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA21CEA3D7300EE36F7 /* Note_types.h */; };
+		089A9B521CEA3D7300EE36F7 /* Observation_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AA31CEA3D7300EE36F7 /* Observation_apply.cpp */; };
+		089A9B531CEA3D7300EE36F7 /* Observation_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA41CEA3D7300EE36F7 /* Observation_apply.h */; };
+		089A9B541CEA3D7300EE36F7 /* Observation_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA51CEA3D7300EE36F7 /* Observation_reflection.h */; };
+		089A9B551CEA3D7300EE36F7 /* Observation_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AA61CEA3D7300EE36F7 /* Observation_types.cpp */; };
+		089A9B561CEA3D7300EE36F7 /* Observation_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA71CEA3D7300EE36F7 /* Observation_types.h */; };
+		089A9B571CEA3D7300EE36F7 /* Order_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AA81CEA3D7300EE36F7 /* Order_apply.cpp */; };
+		089A9B581CEA3D7300EE36F7 /* Order_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AA91CEA3D7300EE36F7 /* Order_apply.h */; };
+		089A9B591CEA3D7300EE36F7 /* Order_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AAA1CEA3D7300EE36F7 /* Order_reflection.h */; };
+		089A9B5A1CEA3D7300EE36F7 /* Order_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AAB1CEA3D7300EE36F7 /* Order_types.cpp */; };
+		089A9B5B1CEA3D7300EE36F7 /* Order_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AAC1CEA3D7300EE36F7 /* Order_types.h */; };
+		089A9B5C1CEA3D7300EE36F7 /* Patient_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AAD1CEA3D7300EE36F7 /* Patient_apply.cpp */; };
+		089A9B5D1CEA3D7300EE36F7 /* Patient_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AAE1CEA3D7300EE36F7 /* Patient_apply.h */; };
+		089A9B5E1CEA3D7300EE36F7 /* Patient_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AAF1CEA3D7300EE36F7 /* Patient_reflection.h */; };
+		089A9B5F1CEA3D7300EE36F7 /* Patient_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AB01CEA3D7300EE36F7 /* Patient_types.cpp */; };
+		089A9B601CEA3D7300EE36F7 /* Patient_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB11CEA3D7300EE36F7 /* Patient_types.h */; };
+		089A9B611CEA3D7300EE36F7 /* Prescription_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AB21CEA3D7300EE36F7 /* Prescription_apply.cpp */; };
+		089A9B621CEA3D7300EE36F7 /* Prescription_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB31CEA3D7300EE36F7 /* Prescription_apply.h */; };
+		089A9B631CEA3D7300EE36F7 /* Prescription_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB41CEA3D7300EE36F7 /* Prescription_reflection.h */; };
+		089A9B641CEA3D7300EE36F7 /* Prescription_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AB51CEA3D7300EE36F7 /* Prescription_types.cpp */; };
+		089A9B651CEA3D7300EE36F7 /* Prescription_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB61CEA3D7300EE36F7 /* Prescription_types.h */; };
+		089A9B661CEA3D7300EE36F7 /* Problem_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AB71CEA3D7300EE36F7 /* Problem_apply.cpp */; };
+		089A9B671CEA3D7300EE36F7 /* Problem_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB81CEA3D7300EE36F7 /* Problem_apply.h */; };
+		089A9B681CEA3D7300EE36F7 /* Problem_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AB91CEA3D7300EE36F7 /* Problem_reflection.h */; };
+		089A9B691CEA3D7300EE36F7 /* Problem_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ABA1CEA3D7300EE36F7 /* Problem_types.cpp */; };
+		089A9B6A1CEA3D7300EE36F7 /* Problem_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ABB1CEA3D7300EE36F7 /* Problem_types.h */; };
+		089A9B6B1CEA3D7300EE36F7 /* Provider_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ABC1CEA3D7300EE36F7 /* Provider_apply.cpp */; };
+		089A9B6C1CEA3D7300EE36F7 /* Provider_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ABD1CEA3D7300EE36F7 /* Provider_apply.h */; };
+		089A9B6D1CEA3D7300EE36F7 /* Provider_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ABE1CEA3D7300EE36F7 /* Provider_reflection.h */; };
+		089A9B6E1CEA3D7300EE36F7 /* Provider_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ABF1CEA3D7300EE36F7 /* Provider_types.cpp */; };
+		089A9B6F1CEA3D7300EE36F7 /* Provider_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC01CEA3D7300EE36F7 /* Provider_types.h */; };
+		089A9B701CEA3D7300EE36F7 /* Reaction_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AC11CEA3D7300EE36F7 /* Reaction_apply.cpp */; };
+		089A9B711CEA3D7300EE36F7 /* Reaction_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC21CEA3D7300EE36F7 /* Reaction_apply.h */; };
+		089A9B721CEA3D7300EE36F7 /* Reaction_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC31CEA3D7300EE36F7 /* Reaction_reflection.h */; };
+		089A9B731CEA3D7300EE36F7 /* Reaction_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AC41CEA3D7300EE36F7 /* Reaction_types.cpp */; };
+		089A9B741CEA3D7300EE36F7 /* Reaction_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC51CEA3D7300EE36F7 /* Reaction_types.h */; };
+		089A9B751CEA3D7300EE36F7 /* ReactionSignificance_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AC61CEA3D7300EE36F7 /* ReactionSignificance_apply.cpp */; };
+		089A9B761CEA3D7300EE36F7 /* ReactionSignificance_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC71CEA3D7300EE36F7 /* ReactionSignificance_apply.h */; };
+		089A9B771CEA3D7300EE36F7 /* ReactionSignificance_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AC81CEA3D7300EE36F7 /* ReactionSignificance_reflection.h */; };
+		089A9B781CEA3D7300EE36F7 /* ReactionSignificance_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AC91CEA3D7300EE36F7 /* ReactionSignificance_types.cpp */; };
+		089A9B791CEA3D7300EE36F7 /* ReactionSignificance_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ACA1CEA3D7300EE36F7 /* ReactionSignificance_types.h */; };
+		089A9B7A1CEA3D7300EE36F7 /* Room_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ACB1CEA3D7300EE36F7 /* Room_apply.cpp */; };
+		089A9B7B1CEA3D7300EE36F7 /* Room_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ACC1CEA3D7300EE36F7 /* Room_apply.h */; };
+		089A9B7C1CEA3D7300EE36F7 /* Room_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ACD1CEA3D7300EE36F7 /* Room_reflection.h */; };
+		089A9B7D1CEA3D7300EE36F7 /* Room_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ACE1CEA3D7300EE36F7 /* Room_types.cpp */; };
+		089A9B7E1CEA3D7300EE36F7 /* Room_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ACF1CEA3D7300EE36F7 /* Room_types.h */; };
+		089A9B7F1CEA3D7300EE36F7 /* SocialHistoryItem_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AD01CEA3D7300EE36F7 /* SocialHistoryItem_apply.cpp */; };
+		089A9B801CEA3D7300EE36F7 /* SocialHistoryItem_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD11CEA3D7300EE36F7 /* SocialHistoryItem_apply.h */; };
+		089A9B811CEA3D7300EE36F7 /* SocialHistoryItem_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD21CEA3D7300EE36F7 /* SocialHistoryItem_reflection.h */; };
+		089A9B821CEA3D7300EE36F7 /* SocialHistoryItem_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AD31CEA3D7300EE36F7 /* SocialHistoryItem_types.cpp */; };
+		089A9B831CEA3D7300EE36F7 /* SocialHistoryItem_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD41CEA3D7300EE36F7 /* SocialHistoryItem_types.h */; };
+		089A9B841CEA3D7300EE36F7 /* SurgicalProcedure_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AD51CEA3D7300EE36F7 /* SurgicalProcedure_apply.cpp */; };
+		089A9B851CEA3D7300EE36F7 /* SurgicalProcedure_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD61CEA3D7300EE36F7 /* SurgicalProcedure_apply.h */; };
+		089A9B861CEA3D7300EE36F7 /* SurgicalProcedure_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD71CEA3D7300EE36F7 /* SurgicalProcedure_reflection.h */; };
+		089A9B871CEA3D7300EE36F7 /* SurgicalProcedure_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AD81CEA3D7300EE36F7 /* SurgicalProcedure_types.cpp */; };
+		089A9B881CEA3D7300EE36F7 /* SurgicalProcedure_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AD91CEA3D7300EE36F7 /* SurgicalProcedure_types.h */; };
+		089A9B891CEA3D7300EE36F7 /* UserAuthDataSchema_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ADA1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.cpp */; };
+		089A9B8A1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ADB1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.h */; };
+		089A9B8B1CEA3D7300EE36F7 /* UserAuthDataSchema_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ADC1CEA3D7300EE36F7 /* UserAuthDataSchema_reflection.h */; };
+		089A9B8C1CEA3D7300EE36F7 /* UserAuthDataSchema_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ADD1CEA3D7300EE36F7 /* UserAuthDataSchema_types.cpp */; };
+		089A9B8D1CEA3D7300EE36F7 /* UserAuthDataSchema_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9ADE1CEA3D7300EE36F7 /* UserAuthDataSchema_types.h */; };
+		089A9B8E1CEA3D7300EE36F7 /* UserSchema_apply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9ADF1CEA3D7300EE36F7 /* UserSchema_apply.cpp */; };
+		089A9B8F1CEA3D7300EE36F7 /* UserSchema_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AE01CEA3D7300EE36F7 /* UserSchema_apply.h */; };
+		089A9B901CEA3D7300EE36F7 /* UserSchema_reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AE11CEA3D7300EE36F7 /* UserSchema_reflection.h */; };
+		089A9B911CEA3D7300EE36F7 /* UserSchema_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 089A9AE21CEA3D7300EE36F7 /* UserSchema_types.cpp */; };
+		089A9B921CEA3D7300EE36F7 /* UserSchema_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9AE31CEA3D7300EE36F7 /* UserSchema_types.h */; };
+		089A9C0D1CEA4AF300EE36F7 /* AddressDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9B941CEA4AF300EE36F7 /* AddressDto.h */; };
+		089A9C0E1CEA4AF300EE36F7 /* AddressDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9B951CEA4AF300EE36F7 /* AddressDto.mm */; };
+		089A9C0F1CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9B961CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.h */; };
+		089A9C101CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9B971CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.mm */; };
+		089A9C111CEA4AF300EE36F7 /* AllergyContentItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9B981CEA4AF300EE36F7 /* AllergyContentItemDto.h */; };
+		089A9C121CEA4AF300EE36F7 /* AllergyContentItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9B991CEA4AF300EE36F7 /* AllergyContentItemDto.mm */; };
+		089A9C131CEA4AF300EE36F7 /* AllergyDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9B9A1CEA4AF300EE36F7 /* AllergyDto.h */; };
+		089A9C141CEA4AF300EE36F7 /* AllergyDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9B9B1CEA4AF300EE36F7 /* AllergyDto.mm */; };
+		089A9C171CEA4AF300EE36F7 /* AppointmentDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9B9E1CEA4AF300EE36F7 /* AppointmentDto.h */; };
+		089A9C181CEA4AF300EE36F7 /* AppointmentDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9B9F1CEA4AF300EE36F7 /* AppointmentDto.mm */; };
+		089A9C191CEA4AF300EE36F7 /* AppointmentMaterializationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BA01CEA4AF300EE36F7 /* AppointmentMaterializationDto.h */; };
+		089A9C1A1CEA4AF300EE36F7 /* AppointmentMaterializationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BA11CEA4AF300EE36F7 /* AppointmentMaterializationDto.mm */; };
+		089A9C1B1CEA4AF300EE36F7 /* BaseClinicalItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BA21CEA4AF300EE36F7 /* BaseClinicalItemDto.h */; };
+		089A9C1C1CEA4AF300EE36F7 /* BaseClinicalItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BA31CEA4AF300EE36F7 /* BaseClinicalItemDto.mm */; };
+		089A9C1D1CEA4AF300EE36F7 /* BaseEntityDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BA41CEA4AF300EE36F7 /* BaseEntityDto.h */; };
+		089A9C1E1CEA4AF300EE36F7 /* BaseEntityDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BA51CEA4AF300EE36F7 /* BaseEntityDto.mm */; };
+		089A9C211CEA4AF300EE36F7 /* BaseItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BA81CEA4AF300EE36F7 /* BaseItemDto.h */; };
+		089A9C221CEA4AF300EE36F7 /* BaseItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BA91CEA4AF300EE36F7 /* BaseItemDto.mm */; };
+		089A9C231CEA4AF300EE36F7 /* BasePersonDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BAA1CEA4AF300EE36F7 /* BasePersonDto.h */; };
+		089A9C241CEA4AF300EE36F7 /* BasePersonDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BAB1CEA4AF300EE36F7 /* BasePersonDto.mm */; };
+		089A9C251CEA4AF300EE36F7 /* BasicRangeDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BAC1CEA4AF300EE36F7 /* BasicRangeDto.h */; };
+		089A9C261CEA4AF300EE36F7 /* BasicRangeDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BAD1CEA4AF300EE36F7 /* BasicRangeDto.mm */; };
+		089A9C271CEA4AF300EE36F7 /* BillingAccountDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BAE1CEA4AF300EE36F7 /* BillingAccountDto.h */; };
+		089A9C281CEA4AF300EE36F7 /* BillingAccountDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BAF1CEA4AF300EE36F7 /* BillingAccountDto.mm */; };
+		089A9C291CEA4AF300EE36F7 /* BillingProcedureDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB01CEA4AF300EE36F7 /* BillingProcedureDto.h */; };
+		089A9C2A1CEA4AF300EE36F7 /* BillingProcedureDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BB11CEA4AF300EE36F7 /* BillingProcedureDto.mm */; };
+		089A9C2B1CEA4AF300EE36F7 /* CodeValueDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB21CEA4AF300EE36F7 /* CodeValueDto.h */; };
+		089A9C2C1CEA4AF300EE36F7 /* CodeValueDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BB31CEA4AF300EE36F7 /* CodeValueDto.mm */; };
+		089A9C2D1CEA4AF300EE36F7 /* CoordinatesDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB41CEA4AF300EE36F7 /* CoordinatesDto.h */; };
+		089A9C2E1CEA4AF300EE36F7 /* CoordinatesDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BB51CEA4AF300EE36F7 /* CoordinatesDto.mm */; };
+		089A9C2F1CEA4AF300EE36F7 /* DemographicsDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB61CEA4AF300EE36F7 /* DemographicsDto.h */; };
+		089A9C301CEA4AF300EE36F7 /* DemographicsDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BB71CEA4AF300EE36F7 /* DemographicsDto.mm */; };
+		089A9C311CEA4AF300EE36F7 /* DtoType.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB81CEA4AF300EE36F7 /* DtoType.h */; };
+		089A9C321CEA4AF300EE36F7 /* EmergencyPatientDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BB91CEA4AF300EE36F7 /* EmergencyPatientDto.h */; };
+		089A9C331CEA4AF300EE36F7 /* EmergencyPatientDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BBA1CEA4AF300EE36F7 /* EmergencyPatientDto.mm */; };
+		089A9C341CEA4AF300EE36F7 /* ExaminationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BBB1CEA4AF300EE36F7 /* ExaminationDto.h */; };
+		089A9C351CEA4AF300EE36F7 /* ExaminationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BBC1CEA4AF300EE36F7 /* ExaminationDto.mm */; };
+		089A9C361CEA4AF300EE36F7 /* FamilyProblemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BBD1CEA4AF300EE36F7 /* FamilyProblemDto.h */; };
+		089A9C371CEA4AF300EE36F7 /* FamilyProblemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BBE1CEA4AF300EE36F7 /* FamilyProblemDto.mm */; };
+		089A9C381CEA4AF300EE36F7 /* FeedbackDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BBF1CEA4AF300EE36F7 /* FeedbackDto.h */; };
+		089A9C391CEA4AF300EE36F7 /* FeedbackDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BC01CEA4AF300EE36F7 /* FeedbackDto.mm */; };
+		089A9C3A1CEA4AF300EE36F7 /* FrequencyContentItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BC11CEA4AF300EE36F7 /* FrequencyContentItemDto.h */; };
+		089A9C3B1CEA4AF300EE36F7 /* FrequencyContentItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BC21CEA4AF300EE36F7 /* FrequencyContentItemDto.mm */; };
+		089A9C3C1CEA4AF300EE36F7 /* HealthRecordDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BC31CEA4AF300EE36F7 /* HealthRecordDto.h */; };
+		089A9C3D1CEA4AF300EE36F7 /* HealthRecordDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BC41CEA4AF300EE36F7 /* HealthRecordDto.mm */; };
+		089A9C3E1CEA4AF300EE36F7 /* ImageResourceDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BC51CEA4AF300EE36F7 /* ImageResourceDto.h */; };
+		089A9C3F1CEA4AF300EE36F7 /* ImageResourceDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BC61CEA4AF300EE36F7 /* ImageResourceDto.mm */; };
+		089A9C401CEA4AF300EE36F7 /* ImmunizationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BC71CEA4AF300EE36F7 /* ImmunizationDto.h */; };
+		089A9C411CEA4AF300EE36F7 /* ImmunizationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BC81CEA4AF300EE36F7 /* ImmunizationDto.mm */; };
+		089A9C441CEA4AF300EE36F7 /* InsurancePolicyDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BCB1CEA4AF300EE36F7 /* InsurancePolicyDto.h */; };
+		089A9C451CEA4AF300EE36F7 /* InsurancePolicyDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BCC1CEA4AF300EE36F7 /* InsurancePolicyDto.mm */; };
+		089A9C461CEA4AF300EE36F7 /* InvoiceDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BCD1CEA4AF300EE36F7 /* InvoiceDto.h */; };
+		089A9C471CEA4AF300EE36F7 /* InvoiceDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BCE1CEA4AF300EE36F7 /* InvoiceDto.mm */; };
+		089A9C481CEA4AF300EE36F7 /* LocatableBaseEntityDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BCF1CEA4AF300EE36F7 /* LocatableBaseEntityDto.h */; };
+		089A9C491CEA4AF300EE36F7 /* LocatableBaseEntityDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BD01CEA4AF300EE36F7 /* LocatableBaseEntityDto.mm */; };
+		089A9C4A1CEA4AF300EE36F7 /* MeasurementDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BD11CEA4AF300EE36F7 /* MeasurementDto.h */; };
+		089A9C4B1CEA4AF300EE36F7 /* MeasurementDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BD21CEA4AF300EE36F7 /* MeasurementDto.mm */; };
+		089A9C4C1CEA4AF300EE36F7 /* MedicationContentItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BD31CEA4AF300EE36F7 /* MedicationContentItemDto.h */; };
+		089A9C4D1CEA4AF300EE36F7 /* MedicationContentItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BD41CEA4AF300EE36F7 /* MedicationContentItemDto.mm */; };
+		089A9C4E1CEA4AF300EE36F7 /* MedicationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BD51CEA4AF300EE36F7 /* MedicationDto.h */; };
+		089A9C4F1CEA4AF300EE36F7 /* MedicationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BD61CEA4AF300EE36F7 /* MedicationDto.mm */; };
+		089A9C501CEA4AF300EE36F7 /* NomenclatureDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BD71CEA4AF300EE36F7 /* NomenclatureDto.h */; };
+		089A9C511CEA4AF300EE36F7 /* NomenclatureDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BD81CEA4AF300EE36F7 /* NomenclatureDto.mm */; };
+		089A9C521CEA4AF300EE36F7 /* NoteDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BD91CEA4AF300EE36F7 /* NoteDto.h */; };
+		089A9C531CEA4AF300EE36F7 /* NoteDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BDA1CEA4AF300EE36F7 /* NoteDto.mm */; };
+		089A9C541CEA4AF300EE36F7 /* NoteReferenceDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BDB1CEA4AF300EE36F7 /* NoteReferenceDto.h */; };
+		089A9C551CEA4AF300EE36F7 /* NoteReferenceDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BDC1CEA4AF300EE36F7 /* NoteReferenceDto.mm */; };
+		089A9C561CEA4AF300EE36F7 /* ObsCatalogSetItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BDD1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.h */; };
+		089A9C571CEA4AF300EE36F7 /* ObsCatalogSetItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BDE1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.mm */; };
+		089A9C581CEA4AF300EE36F7 /* ObservationDescriptionDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BDF1CEA4AF300EE36F7 /* ObservationDescriptionDto.h */; };
+		089A9C591CEA4AF300EE36F7 /* ObservationDescriptionDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BE01CEA4AF300EE36F7 /* ObservationDescriptionDto.mm */; };
+		089A9C5A1CEA4AF300EE36F7 /* ObservationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BE11CEA4AF300EE36F7 /* ObservationDto.h */; };
+		089A9C5B1CEA4AF300EE36F7 /* ObservationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BE21CEA4AF300EE36F7 /* ObservationDto.mm */; };
+		089A9C5C1CEA4AF300EE36F7 /* ObservationListDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BE31CEA4AF300EE36F7 /* ObservationListDto.h */; };
+		089A9C5D1CEA4AF300EE36F7 /* ObservationListDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BE41CEA4AF300EE36F7 /* ObservationListDto.mm */; };
+		089A9C5E1CEA4AF300EE36F7 /* ObservationListItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BE51CEA4AF300EE36F7 /* ObservationListItemDto.h */; };
+		089A9C5F1CEA4AF300EE36F7 /* ObservationListItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BE61CEA4AF300EE36F7 /* ObservationListItemDto.mm */; };
+		089A9C601CEA4AF300EE36F7 /* ObservationSetDescriptionDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BE71CEA4AF300EE36F7 /* ObservationSetDescriptionDto.h */; };
+		089A9C611CEA4AF300EE36F7 /* ObservationSetDescriptionDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BE81CEA4AF300EE36F7 /* ObservationSetDescriptionDto.mm */; };
+		089A9C621CEA4AF300EE36F7 /* OrderContentItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BE91CEA4AF300EE36F7 /* OrderContentItemDto.h */; };
+		089A9C631CEA4AF300EE36F7 /* OrderContentItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BEA1CEA4AF300EE36F7 /* OrderContentItemDto.mm */; };
+		089A9C641CEA4AF300EE36F7 /* OrderDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BEB1CEA4AF300EE36F7 /* OrderDto.h */; };
+		089A9C651CEA4AF300EE36F7 /* OrderDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BEC1CEA4AF300EE36F7 /* OrderDto.mm */; };
+		089A9C661CEA4AF300EE36F7 /* PatientDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BED1CEA4AF300EE36F7 /* PatientDto.h */; };
+		089A9C671CEA4AF300EE36F7 /* PatientDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BEE1CEA4AF300EE36F7 /* PatientDto.mm */; };
+		089A9C681CEA4AF300EE36F7 /* PersonContactInformationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BEF1CEA4AF300EE36F7 /* PersonContactInformationDto.h */; };
+		089A9C691CEA4AF300EE36F7 /* PersonContactInformationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BF01CEA4AF300EE36F7 /* PersonContactInformationDto.mm */; };
+		089A9C6A1CEA4AF300EE36F7 /* PersonNameDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BF11CEA4AF300EE36F7 /* PersonNameDto.h */; };
+		089A9C6B1CEA4AF300EE36F7 /* PersonNameDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BF21CEA4AF300EE36F7 /* PersonNameDto.mm */; };
+		089A9C6C1CEA4AF300EE36F7 /* PreferenceDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BF31CEA4AF300EE36F7 /* PreferenceDto.h */; };
+		089A9C6D1CEA4AF300EE36F7 /* PreferenceDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BF41CEA4AF300EE36F7 /* PreferenceDto.mm */; };
+		089A9C6E1CEA4AF300EE36F7 /* PrescriptionDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BF51CEA4AF300EE36F7 /* PrescriptionDto.h */; };
+		089A9C6F1CEA4AF300EE36F7 /* PrescriptionDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BF61CEA4AF300EE36F7 /* PrescriptionDto.mm */; };
+		089A9C701CEA4AF300EE36F7 /* ProblemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BF71CEA4AF300EE36F7 /* ProblemDto.h */; };
+		089A9C711CEA4AF300EE36F7 /* ProblemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BF81CEA4AF300EE36F7 /* ProblemDto.mm */; };
+		089A9C721CEA4AF300EE36F7 /* ProviderDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BF91CEA4AF300EE36F7 /* ProviderDto.h */; };
+		089A9C731CEA4AF300EE36F7 /* ProviderDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BFA1CEA4AF300EE36F7 /* ProviderDto.mm */; };
+		089A9C741CEA4AF300EE36F7 /* ReactionDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BFB1CEA4AF300EE36F7 /* ReactionDto.h */; };
+		089A9C751CEA4AF300EE36F7 /* ReactionDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BFC1CEA4AF300EE36F7 /* ReactionDto.mm */; };
+		089A9C761CEA4AF300EE36F7 /* RegistrationPatientDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BFD1CEA4AF300EE36F7 /* RegistrationPatientDto.h */; };
+		089A9C771CEA4AF300EE36F7 /* RegistrationPatientDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9BFE1CEA4AF300EE36F7 /* RegistrationPatientDto.mm */; };
+		089A9C781CEA4AF300EE36F7 /* RelatedMedicationDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9BFF1CEA4AF300EE36F7 /* RelatedMedicationDto.h */; };
+		089A9C791CEA4AF300EE36F7 /* RelatedMedicationDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C001CEA4AF300EE36F7 /* RelatedMedicationDto.mm */; };
+		089A9C7A1CEA4AF300EE36F7 /* RelatedOrderDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C011CEA4AF300EE36F7 /* RelatedOrderDto.h */; };
+		089A9C7B1CEA4AF300EE36F7 /* RelatedOrderDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C021CEA4AF300EE36F7 /* RelatedOrderDto.mm */; };
+		089A9C7C1CEA4AF300EE36F7 /* RoomDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C031CEA4AF300EE36F7 /* RoomDto.h */; };
+		089A9C7D1CEA4AF300EE36F7 /* RoomDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C041CEA4AF300EE36F7 /* RoomDto.mm */; };
+		089A9C7E1CEA4AF300EE36F7 /* SigInstructionContentItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C051CEA4AF300EE36F7 /* SigInstructionContentItemDto.h */; };
+		089A9C7F1CEA4AF300EE36F7 /* SigInstructionContentItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C061CEA4AF300EE36F7 /* SigInstructionContentItemDto.mm */; };
+		089A9C801CEA4AF300EE36F7 /* SocialHistoryItemDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C071CEA4AF300EE36F7 /* SocialHistoryItemDto.h */; };
+		089A9C811CEA4AF300EE36F7 /* SocialHistoryItemDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C081CEA4AF300EE36F7 /* SocialHistoryItemDto.mm */; };
+		089A9C821CEA4AF300EE36F7 /* SurgicalProcedureDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C091CEA4AF300EE36F7 /* SurgicalProcedureDto.h */; };
+		089A9C831CEA4AF300EE36F7 /* SurgicalProcedureDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C0A1CEA4AF300EE36F7 /* SurgicalProcedureDto.mm */; };
+		089A9C841CEA4AF300EE36F7 /* TelephoneNumberDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C0B1CEA4AF300EE36F7 /* TelephoneNumberDto.h */; };
+		089A9C851CEA4AF300EE36F7 /* TelephoneNumberDto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 089A9C0C1CEA4AF300EE36F7 /* TelephoneNumberDto.mm */; };
+		089A9C871CEA4C1A00EE36F7 /* CppBondSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A9C861CEA4C1A00EE36F7 /* CppBondSerializer.h */; };
 		0C6FF91EB1F0391ED75DC72D31D159EF /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 408EA78FA928332DAE21B1527BCC7A2F /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EC02837F7465B7AED8E1A256D57C91 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E76F7B193326D5A14FF5EAE79CEAFA4 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E4286F5B187014B00F18766782F7018D /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +340,6 @@
 		471FD4F68E27AB26FA2AEBB8B245CEE4 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB33EA3C18646B1DA6384B7C356C458 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49E3637E80B5FD73B6CC3B3F49E3414F /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3CD05CED877C5E19CB18BA095BC724 /* SPTSharedExampleGroups.m */; };
 		4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BF15B0F1D99CAD6E46F0030F50C50 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ED45FEAE621068C48E5CDA4A877A4A0 /* SampleClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3193BA268C332B75073679B68BB3229 /* SampleClass.mm */; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE369528DB94DD9FD6880DCFAAAAB69 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD1ACE41267CA214F5A9F6AAACB2783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F67D8E8E16F0E77A2D4E5F714CEBC41 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -162,7 +451,297 @@
 		04BBCCE13322F42620459D20E8DE3673 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		04D6221AD6AD261B601F9711E749A5D5 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		06C1DD363D5966F42C4D802641B4CEEA /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
-		087CBDD11CDA317700DB8FAE /* SampleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClass.h; sourceTree = "<group>"; };
+		089A9A351CEA3D7300EE36F7 /* Allergy_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Allergy_apply.cpp; sourceTree = "<group>"; };
+		089A9A361CEA3D7300EE36F7 /* Allergy_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allergy_apply.h; sourceTree = "<group>"; };
+		089A9A371CEA3D7300EE36F7 /* Allergy_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allergy_reflection.h; sourceTree = "<group>"; };
+		089A9A381CEA3D7300EE36F7 /* Allergy_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Allergy_types.cpp; sourceTree = "<group>"; };
+		089A9A391CEA3D7300EE36F7 /* Allergy_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allergy_types.h; sourceTree = "<group>"; };
+		089A9A3A1CEA3D7300EE36F7 /* Appointment_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Appointment_apply.cpp; sourceTree = "<group>"; };
+		089A9A3B1CEA3D7300EE36F7 /* Appointment_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointment_apply.h; sourceTree = "<group>"; };
+		089A9A3C1CEA3D7300EE36F7 /* Appointment_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointment_reflection.h; sourceTree = "<group>"; };
+		089A9A3D1CEA3D7300EE36F7 /* Appointment_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Appointment_types.cpp; sourceTree = "<group>"; };
+		089A9A3E1CEA3D7300EE36F7 /* Appointment_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointment_types.h; sourceTree = "<group>"; };
+		089A9A3F1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppointmentMaterialization_apply.cpp; sourceTree = "<group>"; };
+		089A9A401CEA3D7300EE36F7 /* AppointmentMaterialization_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentMaterialization_apply.h; sourceTree = "<group>"; };
+		089A9A411CEA3D7300EE36F7 /* AppointmentMaterialization_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentMaterialization_reflection.h; sourceTree = "<group>"; };
+		089A9A421CEA3D7300EE36F7 /* AppointmentMaterialization_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppointmentMaterialization_types.cpp; sourceTree = "<group>"; };
+		089A9A431CEA3D7300EE36F7 /* AppointmentMaterialization_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentMaterialization_types.h; sourceTree = "<group>"; };
+		089A9A441CEA3D7300EE36F7 /* BaseClasses_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseClasses_apply.cpp; sourceTree = "<group>"; };
+		089A9A451CEA3D7300EE36F7 /* BaseClasses_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClasses_apply.h; sourceTree = "<group>"; };
+		089A9A461CEA3D7300EE36F7 /* BaseClasses_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClasses_reflection.h; sourceTree = "<group>"; };
+		089A9A471CEA3D7300EE36F7 /* BaseClasses_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseClasses_types.cpp; sourceTree = "<group>"; };
+		089A9A481CEA3D7300EE36F7 /* BaseClasses_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClasses_types.h; sourceTree = "<group>"; };
+		089A9A491CEA3D7300EE36F7 /* BaseObservation_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseObservation_apply.cpp; sourceTree = "<group>"; };
+		089A9A4A1CEA3D7300EE36F7 /* BaseObservation_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservation_apply.h; sourceTree = "<group>"; };
+		089A9A4B1CEA3D7300EE36F7 /* BaseObservation_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservation_reflection.h; sourceTree = "<group>"; };
+		089A9A4C1CEA3D7300EE36F7 /* BaseObservation_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseObservation_types.cpp; sourceTree = "<group>"; };
+		089A9A4D1CEA3D7300EE36F7 /* BaseObservation_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservation_types.h; sourceTree = "<group>"; };
+		089A9A4E1CEA3D7300EE36F7 /* BaseObservationSet_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseObservationSet_apply.cpp; sourceTree = "<group>"; };
+		089A9A4F1CEA3D7300EE36F7 /* BaseObservationSet_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservationSet_apply.h; sourceTree = "<group>"; };
+		089A9A501CEA3D7300EE36F7 /* BaseObservationSet_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservationSet_reflection.h; sourceTree = "<group>"; };
+		089A9A511CEA3D7300EE36F7 /* BaseObservationSet_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseObservationSet_types.cpp; sourceTree = "<group>"; };
+		089A9A521CEA3D7300EE36F7 /* BaseObservationSet_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObservationSet_types.h; sourceTree = "<group>"; };
+		089A9A531CEA3D7300EE36F7 /* BasePerson_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasePerson_apply.cpp; sourceTree = "<group>"; };
+		089A9A541CEA3D7300EE36F7 /* BasePerson_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePerson_apply.h; sourceTree = "<group>"; };
+		089A9A551CEA3D7300EE36F7 /* BasePerson_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePerson_reflection.h; sourceTree = "<group>"; };
+		089A9A561CEA3D7300EE36F7 /* BasePerson_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasePerson_types.cpp; sourceTree = "<group>"; };
+		089A9A571CEA3D7300EE36F7 /* BasePerson_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePerson_types.h; sourceTree = "<group>"; };
+		089A9A581CEA3D7300EE36F7 /* BillingAccount_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillingAccount_apply.cpp; sourceTree = "<group>"; };
+		089A9A591CEA3D7300EE36F7 /* BillingAccount_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingAccount_apply.h; sourceTree = "<group>"; };
+		089A9A5A1CEA3D7300EE36F7 /* BillingAccount_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingAccount_reflection.h; sourceTree = "<group>"; };
+		089A9A5B1CEA3D7300EE36F7 /* BillingAccount_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillingAccount_types.cpp; sourceTree = "<group>"; };
+		089A9A5C1CEA3D7300EE36F7 /* BillingAccount_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingAccount_types.h; sourceTree = "<group>"; };
+		089A9A5D1CEA3D7300EE36F7 /* BillingProcedure_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillingProcedure_apply.cpp; sourceTree = "<group>"; };
+		089A9A5E1CEA3D7300EE36F7 /* BillingProcedure_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingProcedure_apply.h; sourceTree = "<group>"; };
+		089A9A5F1CEA3D7300EE36F7 /* BillingProcedure_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingProcedure_reflection.h; sourceTree = "<group>"; };
+		089A9A601CEA3D7300EE36F7 /* BillingProcedure_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillingProcedure_types.cpp; sourceTree = "<group>"; };
+		089A9A611CEA3D7300EE36F7 /* BillingProcedure_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingProcedure_types.h; sourceTree = "<group>"; };
+		089A9A621CEA3D7300EE36F7 /* Content_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Content_apply.cpp; sourceTree = "<group>"; };
+		089A9A631CEA3D7300EE36F7 /* Content_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content_apply.h; sourceTree = "<group>"; };
+		089A9A641CEA3D7300EE36F7 /* Content_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content_reflection.h; sourceTree = "<group>"; };
+		089A9A651CEA3D7300EE36F7 /* Content_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Content_types.cpp; sourceTree = "<group>"; };
+		089A9A661CEA3D7300EE36F7 /* Content_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content_types.h; sourceTree = "<group>"; };
+		089A9A671CEA3D7300EE36F7 /* Examination_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Examination_apply.cpp; sourceTree = "<group>"; };
+		089A9A681CEA3D7300EE36F7 /* Examination_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Examination_apply.h; sourceTree = "<group>"; };
+		089A9A691CEA3D7300EE36F7 /* Examination_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Examination_reflection.h; sourceTree = "<group>"; };
+		089A9A6A1CEA3D7300EE36F7 /* Examination_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Examination_types.cpp; sourceTree = "<group>"; };
+		089A9A6B1CEA3D7300EE36F7 /* Examination_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Examination_types.h; sourceTree = "<group>"; };
+		089A9A6C1CEA3D7300EE36F7 /* FamilyProblem_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FamilyProblem_apply.cpp; sourceTree = "<group>"; };
+		089A9A6D1CEA3D7300EE36F7 /* FamilyProblem_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyProblem_apply.h; sourceTree = "<group>"; };
+		089A9A6E1CEA3D7300EE36F7 /* FamilyProblem_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyProblem_reflection.h; sourceTree = "<group>"; };
+		089A9A6F1CEA3D7300EE36F7 /* FamilyProblem_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FamilyProblem_types.cpp; sourceTree = "<group>"; };
+		089A9A701CEA3D7300EE36F7 /* FamilyProblem_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyProblem_types.h; sourceTree = "<group>"; };
+		089A9A711CEA3D7300EE36F7 /* HealthRecord_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HealthRecord_apply.cpp; sourceTree = "<group>"; };
+		089A9A721CEA3D7300EE36F7 /* HealthRecord_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecord_apply.h; sourceTree = "<group>"; };
+		089A9A731CEA3D7300EE36F7 /* HealthRecord_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecord_reflection.h; sourceTree = "<group>"; };
+		089A9A741CEA3D7300EE36F7 /* HealthRecord_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HealthRecord_types.cpp; sourceTree = "<group>"; };
+		089A9A751CEA3D7300EE36F7 /* HealthRecord_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecord_types.h; sourceTree = "<group>"; };
+		089A9A761CEA3D7300EE36F7 /* ImageResource_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageResource_apply.cpp; sourceTree = "<group>"; };
+		089A9A771CEA3D7300EE36F7 /* ImageResource_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResource_apply.h; sourceTree = "<group>"; };
+		089A9A781CEA3D7300EE36F7 /* ImageResource_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResource_reflection.h; sourceTree = "<group>"; };
+		089A9A791CEA3D7300EE36F7 /* ImageResource_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageResource_types.cpp; sourceTree = "<group>"; };
+		089A9A7A1CEA3D7300EE36F7 /* ImageResource_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResource_types.h; sourceTree = "<group>"; };
+		089A9A7B1CEA3D7300EE36F7 /* Immunization_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Immunization_apply.cpp; sourceTree = "<group>"; };
+		089A9A7C1CEA3D7300EE36F7 /* Immunization_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immunization_apply.h; sourceTree = "<group>"; };
+		089A9A7D1CEA3D7300EE36F7 /* Immunization_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immunization_reflection.h; sourceTree = "<group>"; };
+		089A9A7E1CEA3D7300EE36F7 /* Immunization_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Immunization_types.cpp; sourceTree = "<group>"; };
+		089A9A7F1CEA3D7300EE36F7 /* Immunization_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immunization_types.h; sourceTree = "<group>"; };
+		089A9A801CEA3D7300EE36F7 /* IndexSearch_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexSearch_apply.cpp; sourceTree = "<group>"; };
+		089A9A811CEA3D7300EE36F7 /* IndexSearch_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearch_apply.h; sourceTree = "<group>"; };
+		089A9A821CEA3D7300EE36F7 /* IndexSearch_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearch_reflection.h; sourceTree = "<group>"; };
+		089A9A831CEA3D7300EE36F7 /* IndexSearch_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexSearch_types.cpp; sourceTree = "<group>"; };
+		089A9A841CEA3D7300EE36F7 /* IndexSearch_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearch_types.h; sourceTree = "<group>"; };
+		089A9A851CEA3D7300EE36F7 /* InsurancePolicy_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsurancePolicy_apply.cpp; sourceTree = "<group>"; };
+		089A9A861CEA3D7300EE36F7 /* InsurancePolicy_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsurancePolicy_apply.h; sourceTree = "<group>"; };
+		089A9A871CEA3D7300EE36F7 /* InsurancePolicy_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsurancePolicy_reflection.h; sourceTree = "<group>"; };
+		089A9A881CEA3D7300EE36F7 /* InsurancePolicy_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsurancePolicy_types.cpp; sourceTree = "<group>"; };
+		089A9A891CEA3D7300EE36F7 /* InsurancePolicy_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsurancePolicy_types.h; sourceTree = "<group>"; };
+		089A9A8A1CEA3D7300EE36F7 /* InteractionSchema_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteractionSchema_apply.cpp; sourceTree = "<group>"; };
+		089A9A8B1CEA3D7300EE36F7 /* InteractionSchema_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionSchema_apply.h; sourceTree = "<group>"; };
+		089A9A8C1CEA3D7300EE36F7 /* InteractionSchema_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionSchema_reflection.h; sourceTree = "<group>"; };
+		089A9A8D1CEA3D7300EE36F7 /* InteractionSchema_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteractionSchema_types.cpp; sourceTree = "<group>"; };
+		089A9A8E1CEA3D7300EE36F7 /* InteractionSchema_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionSchema_types.h; sourceTree = "<group>"; };
+		089A9A8F1CEA3D7300EE36F7 /* Invoice_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invoice_apply.cpp; sourceTree = "<group>"; };
+		089A9A901CEA3D7300EE36F7 /* Invoice_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice_apply.h; sourceTree = "<group>"; };
+		089A9A911CEA3D7300EE36F7 /* Invoice_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice_reflection.h; sourceTree = "<group>"; };
+		089A9A921CEA3D7300EE36F7 /* Invoice_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invoice_types.cpp; sourceTree = "<group>"; };
+		089A9A931CEA3D7300EE36F7 /* Invoice_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice_types.h; sourceTree = "<group>"; };
+		089A9A941CEA3D7300EE36F7 /* Measurement_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Measurement_apply.cpp; sourceTree = "<group>"; };
+		089A9A951CEA3D7300EE36F7 /* Measurement_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement_apply.h; sourceTree = "<group>"; };
+		089A9A961CEA3D7300EE36F7 /* Measurement_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement_reflection.h; sourceTree = "<group>"; };
+		089A9A971CEA3D7300EE36F7 /* Measurement_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Measurement_types.cpp; sourceTree = "<group>"; };
+		089A9A981CEA3D7300EE36F7 /* Measurement_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement_types.h; sourceTree = "<group>"; };
+		089A9A991CEA3D7300EE36F7 /* Medication_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Medication_apply.cpp; sourceTree = "<group>"; };
+		089A9A9A1CEA3D7300EE36F7 /* Medication_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medication_apply.h; sourceTree = "<group>"; };
+		089A9A9B1CEA3D7300EE36F7 /* Medication_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medication_reflection.h; sourceTree = "<group>"; };
+		089A9A9C1CEA3D7300EE36F7 /* Medication_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Medication_types.cpp; sourceTree = "<group>"; };
+		089A9A9D1CEA3D7300EE36F7 /* Medication_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medication_types.h; sourceTree = "<group>"; };
+		089A9A9E1CEA3D7300EE36F7 /* Note_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Note_apply.cpp; sourceTree = "<group>"; };
+		089A9A9F1CEA3D7300EE36F7 /* Note_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note_apply.h; sourceTree = "<group>"; };
+		089A9AA01CEA3D7300EE36F7 /* Note_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note_reflection.h; sourceTree = "<group>"; };
+		089A9AA11CEA3D7300EE36F7 /* Note_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Note_types.cpp; sourceTree = "<group>"; };
+		089A9AA21CEA3D7300EE36F7 /* Note_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note_types.h; sourceTree = "<group>"; };
+		089A9AA31CEA3D7300EE36F7 /* Observation_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Observation_apply.cpp; sourceTree = "<group>"; };
+		089A9AA41CEA3D7300EE36F7 /* Observation_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation_apply.h; sourceTree = "<group>"; };
+		089A9AA51CEA3D7300EE36F7 /* Observation_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation_reflection.h; sourceTree = "<group>"; };
+		089A9AA61CEA3D7300EE36F7 /* Observation_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Observation_types.cpp; sourceTree = "<group>"; };
+		089A9AA71CEA3D7300EE36F7 /* Observation_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation_types.h; sourceTree = "<group>"; };
+		089A9AA81CEA3D7300EE36F7 /* Order_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Order_apply.cpp; sourceTree = "<group>"; };
+		089A9AA91CEA3D7300EE36F7 /* Order_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order_apply.h; sourceTree = "<group>"; };
+		089A9AAA1CEA3D7300EE36F7 /* Order_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order_reflection.h; sourceTree = "<group>"; };
+		089A9AAB1CEA3D7300EE36F7 /* Order_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Order_types.cpp; sourceTree = "<group>"; };
+		089A9AAC1CEA3D7300EE36F7 /* Order_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order_types.h; sourceTree = "<group>"; };
+		089A9AAD1CEA3D7300EE36F7 /* Patient_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patient_apply.cpp; sourceTree = "<group>"; };
+		089A9AAE1CEA3D7300EE36F7 /* Patient_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient_apply.h; sourceTree = "<group>"; };
+		089A9AAF1CEA3D7300EE36F7 /* Patient_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient_reflection.h; sourceTree = "<group>"; };
+		089A9AB01CEA3D7300EE36F7 /* Patient_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patient_types.cpp; sourceTree = "<group>"; };
+		089A9AB11CEA3D7300EE36F7 /* Patient_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient_types.h; sourceTree = "<group>"; };
+		089A9AB21CEA3D7300EE36F7 /* Prescription_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prescription_apply.cpp; sourceTree = "<group>"; };
+		089A9AB31CEA3D7300EE36F7 /* Prescription_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription_apply.h; sourceTree = "<group>"; };
+		089A9AB41CEA3D7300EE36F7 /* Prescription_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription_reflection.h; sourceTree = "<group>"; };
+		089A9AB51CEA3D7300EE36F7 /* Prescription_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prescription_types.cpp; sourceTree = "<group>"; };
+		089A9AB61CEA3D7300EE36F7 /* Prescription_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription_types.h; sourceTree = "<group>"; };
+		089A9AB71CEA3D7300EE36F7 /* Problem_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem_apply.cpp; sourceTree = "<group>"; };
+		089A9AB81CEA3D7300EE36F7 /* Problem_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem_apply.h; sourceTree = "<group>"; };
+		089A9AB91CEA3D7300EE36F7 /* Problem_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem_reflection.h; sourceTree = "<group>"; };
+		089A9ABA1CEA3D7300EE36F7 /* Problem_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem_types.cpp; sourceTree = "<group>"; };
+		089A9ABB1CEA3D7300EE36F7 /* Problem_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem_types.h; sourceTree = "<group>"; };
+		089A9ABC1CEA3D7300EE36F7 /* Provider_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Provider_apply.cpp; sourceTree = "<group>"; };
+		089A9ABD1CEA3D7300EE36F7 /* Provider_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Provider_apply.h; sourceTree = "<group>"; };
+		089A9ABE1CEA3D7300EE36F7 /* Provider_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Provider_reflection.h; sourceTree = "<group>"; };
+		089A9ABF1CEA3D7300EE36F7 /* Provider_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Provider_types.cpp; sourceTree = "<group>"; };
+		089A9AC01CEA3D7300EE36F7 /* Provider_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Provider_types.h; sourceTree = "<group>"; };
+		089A9AC11CEA3D7300EE36F7 /* Reaction_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reaction_apply.cpp; sourceTree = "<group>"; };
+		089A9AC21CEA3D7300EE36F7 /* Reaction_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reaction_apply.h; sourceTree = "<group>"; };
+		089A9AC31CEA3D7300EE36F7 /* Reaction_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reaction_reflection.h; sourceTree = "<group>"; };
+		089A9AC41CEA3D7300EE36F7 /* Reaction_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reaction_types.cpp; sourceTree = "<group>"; };
+		089A9AC51CEA3D7300EE36F7 /* Reaction_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reaction_types.h; sourceTree = "<group>"; };
+		089A9AC61CEA3D7300EE36F7 /* ReactionSignificance_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReactionSignificance_apply.cpp; sourceTree = "<group>"; };
+		089A9AC71CEA3D7300EE36F7 /* ReactionSignificance_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionSignificance_apply.h; sourceTree = "<group>"; };
+		089A9AC81CEA3D7300EE36F7 /* ReactionSignificance_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionSignificance_reflection.h; sourceTree = "<group>"; };
+		089A9AC91CEA3D7300EE36F7 /* ReactionSignificance_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReactionSignificance_types.cpp; sourceTree = "<group>"; };
+		089A9ACA1CEA3D7300EE36F7 /* ReactionSignificance_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionSignificance_types.h; sourceTree = "<group>"; };
+		089A9ACB1CEA3D7300EE36F7 /* Room_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room_apply.cpp; sourceTree = "<group>"; };
+		089A9ACC1CEA3D7300EE36F7 /* Room_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room_apply.h; sourceTree = "<group>"; };
+		089A9ACD1CEA3D7300EE36F7 /* Room_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room_reflection.h; sourceTree = "<group>"; };
+		089A9ACE1CEA3D7300EE36F7 /* Room_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room_types.cpp; sourceTree = "<group>"; };
+		089A9ACF1CEA3D7300EE36F7 /* Room_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room_types.h; sourceTree = "<group>"; };
+		089A9AD01CEA3D7300EE36F7 /* SocialHistoryItem_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocialHistoryItem_apply.cpp; sourceTree = "<group>"; };
+		089A9AD11CEA3D7300EE36F7 /* SocialHistoryItem_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHistoryItem_apply.h; sourceTree = "<group>"; };
+		089A9AD21CEA3D7300EE36F7 /* SocialHistoryItem_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHistoryItem_reflection.h; sourceTree = "<group>"; };
+		089A9AD31CEA3D7300EE36F7 /* SocialHistoryItem_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocialHistoryItem_types.cpp; sourceTree = "<group>"; };
+		089A9AD41CEA3D7300EE36F7 /* SocialHistoryItem_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHistoryItem_types.h; sourceTree = "<group>"; };
+		089A9AD51CEA3D7300EE36F7 /* SurgicalProcedure_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SurgicalProcedure_apply.cpp; sourceTree = "<group>"; };
+		089A9AD61CEA3D7300EE36F7 /* SurgicalProcedure_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurgicalProcedure_apply.h; sourceTree = "<group>"; };
+		089A9AD71CEA3D7300EE36F7 /* SurgicalProcedure_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurgicalProcedure_reflection.h; sourceTree = "<group>"; };
+		089A9AD81CEA3D7300EE36F7 /* SurgicalProcedure_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SurgicalProcedure_types.cpp; sourceTree = "<group>"; };
+		089A9AD91CEA3D7300EE36F7 /* SurgicalProcedure_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurgicalProcedure_types.h; sourceTree = "<group>"; };
+		089A9ADA1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserAuthDataSchema_apply.cpp; sourceTree = "<group>"; };
+		089A9ADB1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAuthDataSchema_apply.h; sourceTree = "<group>"; };
+		089A9ADC1CEA3D7300EE36F7 /* UserAuthDataSchema_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAuthDataSchema_reflection.h; sourceTree = "<group>"; };
+		089A9ADD1CEA3D7300EE36F7 /* UserAuthDataSchema_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserAuthDataSchema_types.cpp; sourceTree = "<group>"; };
+		089A9ADE1CEA3D7300EE36F7 /* UserAuthDataSchema_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAuthDataSchema_types.h; sourceTree = "<group>"; };
+		089A9ADF1CEA3D7300EE36F7 /* UserSchema_apply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserSchema_apply.cpp; sourceTree = "<group>"; };
+		089A9AE01CEA3D7300EE36F7 /* UserSchema_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSchema_apply.h; sourceTree = "<group>"; };
+		089A9AE11CEA3D7300EE36F7 /* UserSchema_reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSchema_reflection.h; sourceTree = "<group>"; };
+		089A9AE21CEA3D7300EE36F7 /* UserSchema_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserSchema_types.cpp; sourceTree = "<group>"; };
+		089A9AE31CEA3D7300EE36F7 /* UserSchema_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSchema_types.h; sourceTree = "<group>"; };
+		089A9B941CEA4AF300EE36F7 /* AddressDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressDto.h; sourceTree = "<group>"; };
+		089A9B951CEA4AF300EE36F7 /* AddressDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressDto.mm; sourceTree = "<group>"; };
+		089A9B961CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdministrationRouteAndFormDto.h; sourceTree = "<group>"; };
+		089A9B971CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AdministrationRouteAndFormDto.mm; sourceTree = "<group>"; };
+		089A9B981CEA4AF300EE36F7 /* AllergyContentItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyContentItemDto.h; sourceTree = "<group>"; };
+		089A9B991CEA4AF300EE36F7 /* AllergyContentItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AllergyContentItemDto.mm; sourceTree = "<group>"; };
+		089A9B9A1CEA4AF300EE36F7 /* AllergyDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyDto.h; sourceTree = "<group>"; };
+		089A9B9B1CEA4AF300EE36F7 /* AllergyDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AllergyDto.mm; sourceTree = "<group>"; };
+		089A9B9E1CEA4AF300EE36F7 /* AppointmentDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentDto.h; sourceTree = "<group>"; };
+		089A9B9F1CEA4AF300EE36F7 /* AppointmentDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppointmentDto.mm; sourceTree = "<group>"; };
+		089A9BA01CEA4AF300EE36F7 /* AppointmentMaterializationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentMaterializationDto.h; sourceTree = "<group>"; };
+		089A9BA11CEA4AF300EE36F7 /* AppointmentMaterializationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppointmentMaterializationDto.mm; sourceTree = "<group>"; };
+		089A9BA21CEA4AF300EE36F7 /* BaseClinicalItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClinicalItemDto.h; sourceTree = "<group>"; };
+		089A9BA31CEA4AF300EE36F7 /* BaseClinicalItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseClinicalItemDto.mm; sourceTree = "<group>"; };
+		089A9BA41CEA4AF300EE36F7 /* BaseEntityDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntityDto.h; sourceTree = "<group>"; };
+		089A9BA51CEA4AF300EE36F7 /* BaseEntityDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseEntityDto.mm; sourceTree = "<group>"; };
+		089A9BA81CEA4AF300EE36F7 /* BaseItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemDto.h; sourceTree = "<group>"; };
+		089A9BA91CEA4AF300EE36F7 /* BaseItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseItemDto.mm; sourceTree = "<group>"; };
+		089A9BAA1CEA4AF300EE36F7 /* BasePersonDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePersonDto.h; sourceTree = "<group>"; };
+		089A9BAB1CEA4AF300EE36F7 /* BasePersonDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasePersonDto.mm; sourceTree = "<group>"; };
+		089A9BAC1CEA4AF300EE36F7 /* BasicRangeDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicRangeDto.h; sourceTree = "<group>"; };
+		089A9BAD1CEA4AF300EE36F7 /* BasicRangeDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicRangeDto.mm; sourceTree = "<group>"; };
+		089A9BAE1CEA4AF300EE36F7 /* BillingAccountDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingAccountDto.h; sourceTree = "<group>"; };
+		089A9BAF1CEA4AF300EE36F7 /* BillingAccountDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BillingAccountDto.mm; sourceTree = "<group>"; };
+		089A9BB01CEA4AF300EE36F7 /* BillingProcedureDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingProcedureDto.h; sourceTree = "<group>"; };
+		089A9BB11CEA4AF300EE36F7 /* BillingProcedureDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BillingProcedureDto.mm; sourceTree = "<group>"; };
+		089A9BB21CEA4AF300EE36F7 /* CodeValueDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeValueDto.h; sourceTree = "<group>"; };
+		089A9BB31CEA4AF300EE36F7 /* CodeValueDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CodeValueDto.mm; sourceTree = "<group>"; };
+		089A9BB41CEA4AF300EE36F7 /* CoordinatesDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatesDto.h; sourceTree = "<group>"; };
+		089A9BB51CEA4AF300EE36F7 /* CoordinatesDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoordinatesDto.mm; sourceTree = "<group>"; };
+		089A9BB61CEA4AF300EE36F7 /* DemographicsDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemographicsDto.h; sourceTree = "<group>"; };
+		089A9BB71CEA4AF300EE36F7 /* DemographicsDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DemographicsDto.mm; sourceTree = "<group>"; };
+		089A9BB81CEA4AF300EE36F7 /* DtoType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtoType.h; sourceTree = "<group>"; };
+		089A9BB91CEA4AF300EE36F7 /* EmergencyPatientDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyPatientDto.h; sourceTree = "<group>"; };
+		089A9BBA1CEA4AF300EE36F7 /* EmergencyPatientDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EmergencyPatientDto.mm; sourceTree = "<group>"; };
+		089A9BBB1CEA4AF300EE36F7 /* ExaminationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationDto.h; sourceTree = "<group>"; };
+		089A9BBC1CEA4AF300EE36F7 /* ExaminationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExaminationDto.mm; sourceTree = "<group>"; };
+		089A9BBD1CEA4AF300EE36F7 /* FamilyProblemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyProblemDto.h; sourceTree = "<group>"; };
+		089A9BBE1CEA4AF300EE36F7 /* FamilyProblemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FamilyProblemDto.mm; sourceTree = "<group>"; };
+		089A9BBF1CEA4AF300EE36F7 /* FeedbackDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackDto.h; sourceTree = "<group>"; };
+		089A9BC01CEA4AF300EE36F7 /* FeedbackDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FeedbackDto.mm; sourceTree = "<group>"; };
+		089A9BC11CEA4AF300EE36F7 /* FrequencyContentItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyContentItemDto.h; sourceTree = "<group>"; };
+		089A9BC21CEA4AF300EE36F7 /* FrequencyContentItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FrequencyContentItemDto.mm; sourceTree = "<group>"; };
+		089A9BC31CEA4AF300EE36F7 /* HealthRecordDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthRecordDto.h; sourceTree = "<group>"; };
+		089A9BC41CEA4AF300EE36F7 /* HealthRecordDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HealthRecordDto.mm; sourceTree = "<group>"; };
+		089A9BC51CEA4AF300EE36F7 /* ImageResourceDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResourceDto.h; sourceTree = "<group>"; };
+		089A9BC61CEA4AF300EE36F7 /* ImageResourceDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageResourceDto.mm; sourceTree = "<group>"; };
+		089A9BC71CEA4AF300EE36F7 /* ImmunizationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmunizationDto.h; sourceTree = "<group>"; };
+		089A9BC81CEA4AF300EE36F7 /* ImmunizationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImmunizationDto.mm; sourceTree = "<group>"; };
+		089A9BCB1CEA4AF300EE36F7 /* InsurancePolicyDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsurancePolicyDto.h; sourceTree = "<group>"; };
+		089A9BCC1CEA4AF300EE36F7 /* InsurancePolicyDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InsurancePolicyDto.mm; sourceTree = "<group>"; };
+		089A9BCD1CEA4AF300EE36F7 /* InvoiceDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceDto.h; sourceTree = "<group>"; };
+		089A9BCE1CEA4AF300EE36F7 /* InvoiceDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InvoiceDto.mm; sourceTree = "<group>"; };
+		089A9BCF1CEA4AF300EE36F7 /* LocatableBaseEntityDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocatableBaseEntityDto.h; sourceTree = "<group>"; };
+		089A9BD01CEA4AF300EE36F7 /* LocatableBaseEntityDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LocatableBaseEntityDto.mm; sourceTree = "<group>"; };
+		089A9BD11CEA4AF300EE36F7 /* MeasurementDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementDto.h; sourceTree = "<group>"; };
+		089A9BD21CEA4AF300EE36F7 /* MeasurementDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeasurementDto.mm; sourceTree = "<group>"; };
+		089A9BD31CEA4AF300EE36F7 /* MedicationContentItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationContentItemDto.h; sourceTree = "<group>"; };
+		089A9BD41CEA4AF300EE36F7 /* MedicationContentItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MedicationContentItemDto.mm; sourceTree = "<group>"; };
+		089A9BD51CEA4AF300EE36F7 /* MedicationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDto.h; sourceTree = "<group>"; };
+		089A9BD61CEA4AF300EE36F7 /* MedicationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MedicationDto.mm; sourceTree = "<group>"; };
+		089A9BD71CEA4AF300EE36F7 /* NomenclatureDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NomenclatureDto.h; sourceTree = "<group>"; };
+		089A9BD81CEA4AF300EE36F7 /* NomenclatureDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NomenclatureDto.mm; sourceTree = "<group>"; };
+		089A9BD91CEA4AF300EE36F7 /* NoteDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDto.h; sourceTree = "<group>"; };
+		089A9BDA1CEA4AF300EE36F7 /* NoteDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NoteDto.mm; sourceTree = "<group>"; };
+		089A9BDB1CEA4AF300EE36F7 /* NoteReferenceDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteReferenceDto.h; sourceTree = "<group>"; };
+		089A9BDC1CEA4AF300EE36F7 /* NoteReferenceDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NoteReferenceDto.mm; sourceTree = "<group>"; };
+		089A9BDD1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsCatalogSetItemDto.h; sourceTree = "<group>"; };
+		089A9BDE1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObsCatalogSetItemDto.mm; sourceTree = "<group>"; };
+		089A9BDF1CEA4AF300EE36F7 /* ObservationDescriptionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationDescriptionDto.h; sourceTree = "<group>"; };
+		089A9BE01CEA4AF300EE36F7 /* ObservationDescriptionDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObservationDescriptionDto.mm; sourceTree = "<group>"; };
+		089A9BE11CEA4AF300EE36F7 /* ObservationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationDto.h; sourceTree = "<group>"; };
+		089A9BE21CEA4AF300EE36F7 /* ObservationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObservationDto.mm; sourceTree = "<group>"; };
+		089A9BE31CEA4AF300EE36F7 /* ObservationListDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationListDto.h; sourceTree = "<group>"; };
+		089A9BE41CEA4AF300EE36F7 /* ObservationListDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObservationListDto.mm; sourceTree = "<group>"; };
+		089A9BE51CEA4AF300EE36F7 /* ObservationListItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationListItemDto.h; sourceTree = "<group>"; };
+		089A9BE61CEA4AF300EE36F7 /* ObservationListItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObservationListItemDto.mm; sourceTree = "<group>"; };
+		089A9BE71CEA4AF300EE36F7 /* ObservationSetDescriptionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationSetDescriptionDto.h; sourceTree = "<group>"; };
+		089A9BE81CEA4AF300EE36F7 /* ObservationSetDescriptionDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObservationSetDescriptionDto.mm; sourceTree = "<group>"; };
+		089A9BE91CEA4AF300EE36F7 /* OrderContentItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderContentItemDto.h; sourceTree = "<group>"; };
+		089A9BEA1CEA4AF300EE36F7 /* OrderContentItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OrderContentItemDto.mm; sourceTree = "<group>"; };
+		089A9BEB1CEA4AF300EE36F7 /* OrderDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDto.h; sourceTree = "<group>"; };
+		089A9BEC1CEA4AF300EE36F7 /* OrderDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OrderDto.mm; sourceTree = "<group>"; };
+		089A9BED1CEA4AF300EE36F7 /* PatientDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDto.h; sourceTree = "<group>"; };
+		089A9BEE1CEA4AF300EE36F7 /* PatientDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PatientDto.mm; sourceTree = "<group>"; };
+		089A9BEF1CEA4AF300EE36F7 /* PersonContactInformationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonContactInformationDto.h; sourceTree = "<group>"; };
+		089A9BF01CEA4AF300EE36F7 /* PersonContactInformationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PersonContactInformationDto.mm; sourceTree = "<group>"; };
+		089A9BF11CEA4AF300EE36F7 /* PersonNameDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonNameDto.h; sourceTree = "<group>"; };
+		089A9BF21CEA4AF300EE36F7 /* PersonNameDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PersonNameDto.mm; sourceTree = "<group>"; };
+		089A9BF31CEA4AF300EE36F7 /* PreferenceDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceDto.h; sourceTree = "<group>"; };
+		089A9BF41CEA4AF300EE36F7 /* PreferenceDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PreferenceDto.mm; sourceTree = "<group>"; };
+		089A9BF51CEA4AF300EE36F7 /* PrescriptionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionDto.h; sourceTree = "<group>"; };
+		089A9BF61CEA4AF300EE36F7 /* PrescriptionDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PrescriptionDto.mm; sourceTree = "<group>"; };
+		089A9BF71CEA4AF300EE36F7 /* ProblemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemDto.h; sourceTree = "<group>"; };
+		089A9BF81CEA4AF300EE36F7 /* ProblemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProblemDto.mm; sourceTree = "<group>"; };
+		089A9BF91CEA4AF300EE36F7 /* ProviderDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderDto.h; sourceTree = "<group>"; };
+		089A9BFA1CEA4AF300EE36F7 /* ProviderDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProviderDto.mm; sourceTree = "<group>"; };
+		089A9BFB1CEA4AF300EE36F7 /* ReactionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionDto.h; sourceTree = "<group>"; };
+		089A9BFC1CEA4AF300EE36F7 /* ReactionDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReactionDto.mm; sourceTree = "<group>"; };
+		089A9BFD1CEA4AF300EE36F7 /* RegistrationPatientDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationPatientDto.h; sourceTree = "<group>"; };
+		089A9BFE1CEA4AF300EE36F7 /* RegistrationPatientDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RegistrationPatientDto.mm; sourceTree = "<group>"; };
+		089A9BFF1CEA4AF300EE36F7 /* RelatedMedicationDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedMedicationDto.h; sourceTree = "<group>"; };
+		089A9C001CEA4AF300EE36F7 /* RelatedMedicationDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RelatedMedicationDto.mm; sourceTree = "<group>"; };
+		089A9C011CEA4AF300EE36F7 /* RelatedOrderDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedOrderDto.h; sourceTree = "<group>"; };
+		089A9C021CEA4AF300EE36F7 /* RelatedOrderDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RelatedOrderDto.mm; sourceTree = "<group>"; };
+		089A9C031CEA4AF300EE36F7 /* RoomDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDto.h; sourceTree = "<group>"; };
+		089A9C041CEA4AF300EE36F7 /* RoomDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RoomDto.mm; sourceTree = "<group>"; };
+		089A9C051CEA4AF300EE36F7 /* SigInstructionContentItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigInstructionContentItemDto.h; sourceTree = "<group>"; };
+		089A9C061CEA4AF300EE36F7 /* SigInstructionContentItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SigInstructionContentItemDto.mm; sourceTree = "<group>"; };
+		089A9C071CEA4AF300EE36F7 /* SocialHistoryItemDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHistoryItemDto.h; sourceTree = "<group>"; };
+		089A9C081CEA4AF300EE36F7 /* SocialHistoryItemDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SocialHistoryItemDto.mm; sourceTree = "<group>"; };
+		089A9C091CEA4AF300EE36F7 /* SurgicalProcedureDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurgicalProcedureDto.h; sourceTree = "<group>"; };
+		089A9C0A1CEA4AF300EE36F7 /* SurgicalProcedureDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SurgicalProcedureDto.mm; sourceTree = "<group>"; };
+		089A9C0B1CEA4AF300EE36F7 /* TelephoneNumberDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephoneNumberDto.h; sourceTree = "<group>"; };
+		089A9C0C1CEA4AF300EE36F7 /* TelephoneNumberDto.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TelephoneNumberDto.mm; sourceTree = "<group>"; };
+		089A9C861CEA4C1A00EE36F7 /* CppBondSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppBondSerializer.h; sourceTree = "<group>"; };
 		0D742C36417083F91C50620C170817D1 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		113855CF66A69F6876546E978AC2362E /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		124408F448490BCF39CC1C2AA5297197 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
@@ -264,7 +843,6 @@
 		AEF01BA5773CAF9B2F6768A5AEB29504 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		AF080460DC05A5A144E6CAC1177FB0AC /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		B174ECCB055189C835E1613FD300BB85 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
-		B3193BA268C332B75073679B68BB3229 /* SampleClass.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleClass.mm; sourceTree = "<group>"; };
 		B320B192BAA2B7B006880B016A39AB10 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		B3A01C2D39BC37800A9640E28245C9D4 /* Pods-PatientLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatientLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B3BBEA8D0E2B46A33A73346032F24AAA /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
@@ -352,6 +930,309 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		089A9A341CEA3D4900EE36F7 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				089A9A351CEA3D7300EE36F7 /* Allergy_apply.cpp */,
+				089A9A361CEA3D7300EE36F7 /* Allergy_apply.h */,
+				089A9A371CEA3D7300EE36F7 /* Allergy_reflection.h */,
+				089A9A381CEA3D7300EE36F7 /* Allergy_types.cpp */,
+				089A9A391CEA3D7300EE36F7 /* Allergy_types.h */,
+				089A9A3A1CEA3D7300EE36F7 /* Appointment_apply.cpp */,
+				089A9A3B1CEA3D7300EE36F7 /* Appointment_apply.h */,
+				089A9A3C1CEA3D7300EE36F7 /* Appointment_reflection.h */,
+				089A9A3D1CEA3D7300EE36F7 /* Appointment_types.cpp */,
+				089A9A3E1CEA3D7300EE36F7 /* Appointment_types.h */,
+				089A9A3F1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.cpp */,
+				089A9A401CEA3D7300EE36F7 /* AppointmentMaterialization_apply.h */,
+				089A9A411CEA3D7300EE36F7 /* AppointmentMaterialization_reflection.h */,
+				089A9A421CEA3D7300EE36F7 /* AppointmentMaterialization_types.cpp */,
+				089A9A431CEA3D7300EE36F7 /* AppointmentMaterialization_types.h */,
+				089A9A441CEA3D7300EE36F7 /* BaseClasses_apply.cpp */,
+				089A9A451CEA3D7300EE36F7 /* BaseClasses_apply.h */,
+				089A9A461CEA3D7300EE36F7 /* BaseClasses_reflection.h */,
+				089A9A471CEA3D7300EE36F7 /* BaseClasses_types.cpp */,
+				089A9A481CEA3D7300EE36F7 /* BaseClasses_types.h */,
+				089A9A491CEA3D7300EE36F7 /* BaseObservation_apply.cpp */,
+				089A9A4A1CEA3D7300EE36F7 /* BaseObservation_apply.h */,
+				089A9A4B1CEA3D7300EE36F7 /* BaseObservation_reflection.h */,
+				089A9A4C1CEA3D7300EE36F7 /* BaseObservation_types.cpp */,
+				089A9A4D1CEA3D7300EE36F7 /* BaseObservation_types.h */,
+				089A9A4E1CEA3D7300EE36F7 /* BaseObservationSet_apply.cpp */,
+				089A9A4F1CEA3D7300EE36F7 /* BaseObservationSet_apply.h */,
+				089A9A501CEA3D7300EE36F7 /* BaseObservationSet_reflection.h */,
+				089A9A511CEA3D7300EE36F7 /* BaseObservationSet_types.cpp */,
+				089A9A521CEA3D7300EE36F7 /* BaseObservationSet_types.h */,
+				089A9A531CEA3D7300EE36F7 /* BasePerson_apply.cpp */,
+				089A9A541CEA3D7300EE36F7 /* BasePerson_apply.h */,
+				089A9A551CEA3D7300EE36F7 /* BasePerson_reflection.h */,
+				089A9A561CEA3D7300EE36F7 /* BasePerson_types.cpp */,
+				089A9A571CEA3D7300EE36F7 /* BasePerson_types.h */,
+				089A9A581CEA3D7300EE36F7 /* BillingAccount_apply.cpp */,
+				089A9A591CEA3D7300EE36F7 /* BillingAccount_apply.h */,
+				089A9A5A1CEA3D7300EE36F7 /* BillingAccount_reflection.h */,
+				089A9A5B1CEA3D7300EE36F7 /* BillingAccount_types.cpp */,
+				089A9A5C1CEA3D7300EE36F7 /* BillingAccount_types.h */,
+				089A9A5D1CEA3D7300EE36F7 /* BillingProcedure_apply.cpp */,
+				089A9A5E1CEA3D7300EE36F7 /* BillingProcedure_apply.h */,
+				089A9A5F1CEA3D7300EE36F7 /* BillingProcedure_reflection.h */,
+				089A9A601CEA3D7300EE36F7 /* BillingProcedure_types.cpp */,
+				089A9A611CEA3D7300EE36F7 /* BillingProcedure_types.h */,
+				089A9A621CEA3D7300EE36F7 /* Content_apply.cpp */,
+				089A9A631CEA3D7300EE36F7 /* Content_apply.h */,
+				089A9A641CEA3D7300EE36F7 /* Content_reflection.h */,
+				089A9A651CEA3D7300EE36F7 /* Content_types.cpp */,
+				089A9A661CEA3D7300EE36F7 /* Content_types.h */,
+				089A9A671CEA3D7300EE36F7 /* Examination_apply.cpp */,
+				089A9A681CEA3D7300EE36F7 /* Examination_apply.h */,
+				089A9A691CEA3D7300EE36F7 /* Examination_reflection.h */,
+				089A9A6A1CEA3D7300EE36F7 /* Examination_types.cpp */,
+				089A9A6B1CEA3D7300EE36F7 /* Examination_types.h */,
+				089A9A6C1CEA3D7300EE36F7 /* FamilyProblem_apply.cpp */,
+				089A9A6D1CEA3D7300EE36F7 /* FamilyProblem_apply.h */,
+				089A9A6E1CEA3D7300EE36F7 /* FamilyProblem_reflection.h */,
+				089A9A6F1CEA3D7300EE36F7 /* FamilyProblem_types.cpp */,
+				089A9A701CEA3D7300EE36F7 /* FamilyProblem_types.h */,
+				089A9A711CEA3D7300EE36F7 /* HealthRecord_apply.cpp */,
+				089A9A721CEA3D7300EE36F7 /* HealthRecord_apply.h */,
+				089A9A731CEA3D7300EE36F7 /* HealthRecord_reflection.h */,
+				089A9A741CEA3D7300EE36F7 /* HealthRecord_types.cpp */,
+				089A9A751CEA3D7300EE36F7 /* HealthRecord_types.h */,
+				089A9A761CEA3D7300EE36F7 /* ImageResource_apply.cpp */,
+				089A9A771CEA3D7300EE36F7 /* ImageResource_apply.h */,
+				089A9A781CEA3D7300EE36F7 /* ImageResource_reflection.h */,
+				089A9A791CEA3D7300EE36F7 /* ImageResource_types.cpp */,
+				089A9A7A1CEA3D7300EE36F7 /* ImageResource_types.h */,
+				089A9A7B1CEA3D7300EE36F7 /* Immunization_apply.cpp */,
+				089A9A7C1CEA3D7300EE36F7 /* Immunization_apply.h */,
+				089A9A7D1CEA3D7300EE36F7 /* Immunization_reflection.h */,
+				089A9A7E1CEA3D7300EE36F7 /* Immunization_types.cpp */,
+				089A9A7F1CEA3D7300EE36F7 /* Immunization_types.h */,
+				089A9A801CEA3D7300EE36F7 /* IndexSearch_apply.cpp */,
+				089A9A811CEA3D7300EE36F7 /* IndexSearch_apply.h */,
+				089A9A821CEA3D7300EE36F7 /* IndexSearch_reflection.h */,
+				089A9A831CEA3D7300EE36F7 /* IndexSearch_types.cpp */,
+				089A9A841CEA3D7300EE36F7 /* IndexSearch_types.h */,
+				089A9A851CEA3D7300EE36F7 /* InsurancePolicy_apply.cpp */,
+				089A9A861CEA3D7300EE36F7 /* InsurancePolicy_apply.h */,
+				089A9A871CEA3D7300EE36F7 /* InsurancePolicy_reflection.h */,
+				089A9A881CEA3D7300EE36F7 /* InsurancePolicy_types.cpp */,
+				089A9A891CEA3D7300EE36F7 /* InsurancePolicy_types.h */,
+				089A9A8A1CEA3D7300EE36F7 /* InteractionSchema_apply.cpp */,
+				089A9A8B1CEA3D7300EE36F7 /* InteractionSchema_apply.h */,
+				089A9A8C1CEA3D7300EE36F7 /* InteractionSchema_reflection.h */,
+				089A9A8D1CEA3D7300EE36F7 /* InteractionSchema_types.cpp */,
+				089A9A8E1CEA3D7300EE36F7 /* InteractionSchema_types.h */,
+				089A9A8F1CEA3D7300EE36F7 /* Invoice_apply.cpp */,
+				089A9A901CEA3D7300EE36F7 /* Invoice_apply.h */,
+				089A9A911CEA3D7300EE36F7 /* Invoice_reflection.h */,
+				089A9A921CEA3D7300EE36F7 /* Invoice_types.cpp */,
+				089A9A931CEA3D7300EE36F7 /* Invoice_types.h */,
+				089A9A941CEA3D7300EE36F7 /* Measurement_apply.cpp */,
+				089A9A951CEA3D7300EE36F7 /* Measurement_apply.h */,
+				089A9A961CEA3D7300EE36F7 /* Measurement_reflection.h */,
+				089A9A971CEA3D7300EE36F7 /* Measurement_types.cpp */,
+				089A9A981CEA3D7300EE36F7 /* Measurement_types.h */,
+				089A9A991CEA3D7300EE36F7 /* Medication_apply.cpp */,
+				089A9A9A1CEA3D7300EE36F7 /* Medication_apply.h */,
+				089A9A9B1CEA3D7300EE36F7 /* Medication_reflection.h */,
+				089A9A9C1CEA3D7300EE36F7 /* Medication_types.cpp */,
+				089A9A9D1CEA3D7300EE36F7 /* Medication_types.h */,
+				089A9A9E1CEA3D7300EE36F7 /* Note_apply.cpp */,
+				089A9A9F1CEA3D7300EE36F7 /* Note_apply.h */,
+				089A9AA01CEA3D7300EE36F7 /* Note_reflection.h */,
+				089A9AA11CEA3D7300EE36F7 /* Note_types.cpp */,
+				089A9AA21CEA3D7300EE36F7 /* Note_types.h */,
+				089A9AA31CEA3D7300EE36F7 /* Observation_apply.cpp */,
+				089A9AA41CEA3D7300EE36F7 /* Observation_apply.h */,
+				089A9AA51CEA3D7300EE36F7 /* Observation_reflection.h */,
+				089A9AA61CEA3D7300EE36F7 /* Observation_types.cpp */,
+				089A9AA71CEA3D7300EE36F7 /* Observation_types.h */,
+				089A9AA81CEA3D7300EE36F7 /* Order_apply.cpp */,
+				089A9AA91CEA3D7300EE36F7 /* Order_apply.h */,
+				089A9AAA1CEA3D7300EE36F7 /* Order_reflection.h */,
+				089A9AAB1CEA3D7300EE36F7 /* Order_types.cpp */,
+				089A9AAC1CEA3D7300EE36F7 /* Order_types.h */,
+				089A9AAD1CEA3D7300EE36F7 /* Patient_apply.cpp */,
+				089A9AAE1CEA3D7300EE36F7 /* Patient_apply.h */,
+				089A9AAF1CEA3D7300EE36F7 /* Patient_reflection.h */,
+				089A9AB01CEA3D7300EE36F7 /* Patient_types.cpp */,
+				089A9AB11CEA3D7300EE36F7 /* Patient_types.h */,
+				089A9AB21CEA3D7300EE36F7 /* Prescription_apply.cpp */,
+				089A9AB31CEA3D7300EE36F7 /* Prescription_apply.h */,
+				089A9AB41CEA3D7300EE36F7 /* Prescription_reflection.h */,
+				089A9AB51CEA3D7300EE36F7 /* Prescription_types.cpp */,
+				089A9AB61CEA3D7300EE36F7 /* Prescription_types.h */,
+				089A9AB71CEA3D7300EE36F7 /* Problem_apply.cpp */,
+				089A9AB81CEA3D7300EE36F7 /* Problem_apply.h */,
+				089A9AB91CEA3D7300EE36F7 /* Problem_reflection.h */,
+				089A9ABA1CEA3D7300EE36F7 /* Problem_types.cpp */,
+				089A9ABB1CEA3D7300EE36F7 /* Problem_types.h */,
+				089A9ABC1CEA3D7300EE36F7 /* Provider_apply.cpp */,
+				089A9ABD1CEA3D7300EE36F7 /* Provider_apply.h */,
+				089A9ABE1CEA3D7300EE36F7 /* Provider_reflection.h */,
+				089A9ABF1CEA3D7300EE36F7 /* Provider_types.cpp */,
+				089A9AC01CEA3D7300EE36F7 /* Provider_types.h */,
+				089A9AC11CEA3D7300EE36F7 /* Reaction_apply.cpp */,
+				089A9AC21CEA3D7300EE36F7 /* Reaction_apply.h */,
+				089A9AC31CEA3D7300EE36F7 /* Reaction_reflection.h */,
+				089A9AC41CEA3D7300EE36F7 /* Reaction_types.cpp */,
+				089A9AC51CEA3D7300EE36F7 /* Reaction_types.h */,
+				089A9AC61CEA3D7300EE36F7 /* ReactionSignificance_apply.cpp */,
+				089A9AC71CEA3D7300EE36F7 /* ReactionSignificance_apply.h */,
+				089A9AC81CEA3D7300EE36F7 /* ReactionSignificance_reflection.h */,
+				089A9AC91CEA3D7300EE36F7 /* ReactionSignificance_types.cpp */,
+				089A9ACA1CEA3D7300EE36F7 /* ReactionSignificance_types.h */,
+				089A9ACB1CEA3D7300EE36F7 /* Room_apply.cpp */,
+				089A9ACC1CEA3D7300EE36F7 /* Room_apply.h */,
+				089A9ACD1CEA3D7300EE36F7 /* Room_reflection.h */,
+				089A9ACE1CEA3D7300EE36F7 /* Room_types.cpp */,
+				089A9ACF1CEA3D7300EE36F7 /* Room_types.h */,
+				089A9AD01CEA3D7300EE36F7 /* SocialHistoryItem_apply.cpp */,
+				089A9AD11CEA3D7300EE36F7 /* SocialHistoryItem_apply.h */,
+				089A9AD21CEA3D7300EE36F7 /* SocialHistoryItem_reflection.h */,
+				089A9AD31CEA3D7300EE36F7 /* SocialHistoryItem_types.cpp */,
+				089A9AD41CEA3D7300EE36F7 /* SocialHistoryItem_types.h */,
+				089A9AD51CEA3D7300EE36F7 /* SurgicalProcedure_apply.cpp */,
+				089A9AD61CEA3D7300EE36F7 /* SurgicalProcedure_apply.h */,
+				089A9AD71CEA3D7300EE36F7 /* SurgicalProcedure_reflection.h */,
+				089A9AD81CEA3D7300EE36F7 /* SurgicalProcedure_types.cpp */,
+				089A9AD91CEA3D7300EE36F7 /* SurgicalProcedure_types.h */,
+				089A9ADA1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.cpp */,
+				089A9ADB1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.h */,
+				089A9ADC1CEA3D7300EE36F7 /* UserAuthDataSchema_reflection.h */,
+				089A9ADD1CEA3D7300EE36F7 /* UserAuthDataSchema_types.cpp */,
+				089A9ADE1CEA3D7300EE36F7 /* UserAuthDataSchema_types.h */,
+				089A9ADF1CEA3D7300EE36F7 /* UserSchema_apply.cpp */,
+				089A9AE01CEA3D7300EE36F7 /* UserSchema_apply.h */,
+				089A9AE11CEA3D7300EE36F7 /* UserSchema_reflection.h */,
+				089A9AE21CEA3D7300EE36F7 /* UserSchema_types.cpp */,
+				089A9AE31CEA3D7300EE36F7 /* UserSchema_types.h */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		089A9B931CEA49A600EE36F7 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				089A9B941CEA4AF300EE36F7 /* AddressDto.h */,
+				089A9B961CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.h */,
+				089A9B981CEA4AF300EE36F7 /* AllergyContentItemDto.h */,
+				089A9B9A1CEA4AF300EE36F7 /* AllergyDto.h */,
+				089A9B9E1CEA4AF300EE36F7 /* AppointmentDto.h */,
+				089A9BA01CEA4AF300EE36F7 /* AppointmentMaterializationDto.h */,
+				089A9BA21CEA4AF300EE36F7 /* BaseClinicalItemDto.h */,
+				089A9BA41CEA4AF300EE36F7 /* BaseEntityDto.h */,
+				089A9BA81CEA4AF300EE36F7 /* BaseItemDto.h */,
+				089A9BAA1CEA4AF300EE36F7 /* BasePersonDto.h */,
+				089A9BAC1CEA4AF300EE36F7 /* BasicRangeDto.h */,
+				089A9BAE1CEA4AF300EE36F7 /* BillingAccountDto.h */,
+				089A9BB01CEA4AF300EE36F7 /* BillingProcedureDto.h */,
+				089A9BB21CEA4AF300EE36F7 /* CodeValueDto.h */,
+				089A9BB41CEA4AF300EE36F7 /* CoordinatesDto.h */,
+				089A9BB61CEA4AF300EE36F7 /* DemographicsDto.h */,
+				089A9BB91CEA4AF300EE36F7 /* EmergencyPatientDto.h */,
+				089A9BBB1CEA4AF300EE36F7 /* ExaminationDto.h */,
+				089A9BBD1CEA4AF300EE36F7 /* FamilyProblemDto.h */,
+				089A9BBF1CEA4AF300EE36F7 /* FeedbackDto.h */,
+				089A9BC11CEA4AF300EE36F7 /* FrequencyContentItemDto.h */,
+				089A9BC31CEA4AF300EE36F7 /* HealthRecordDto.h */,
+				089A9BC51CEA4AF300EE36F7 /* ImageResourceDto.h */,
+				089A9BC71CEA4AF300EE36F7 /* ImmunizationDto.h */,
+				089A9BCB1CEA4AF300EE36F7 /* InsurancePolicyDto.h */,
+				089A9BCD1CEA4AF300EE36F7 /* InvoiceDto.h */,
+				089A9BCF1CEA4AF300EE36F7 /* LocatableBaseEntityDto.h */,
+				089A9BD11CEA4AF300EE36F7 /* MeasurementDto.h */,
+				089A9BD31CEA4AF300EE36F7 /* MedicationContentItemDto.h */,
+				089A9BD51CEA4AF300EE36F7 /* MedicationDto.h */,
+				089A9BD71CEA4AF300EE36F7 /* NomenclatureDto.h */,
+				089A9BD91CEA4AF300EE36F7 /* NoteDto.h */,
+				089A9BDB1CEA4AF300EE36F7 /* NoteReferenceDto.h */,
+				089A9BDD1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.h */,
+				089A9BDF1CEA4AF300EE36F7 /* ObservationDescriptionDto.h */,
+				089A9BE11CEA4AF300EE36F7 /* ObservationDto.h */,
+				089A9BE31CEA4AF300EE36F7 /* ObservationListDto.h */,
+				089A9BE51CEA4AF300EE36F7 /* ObservationListItemDto.h */,
+				089A9BE71CEA4AF300EE36F7 /* ObservationSetDescriptionDto.h */,
+				089A9BE91CEA4AF300EE36F7 /* OrderContentItemDto.h */,
+				089A9BEB1CEA4AF300EE36F7 /* OrderDto.h */,
+				089A9BED1CEA4AF300EE36F7 /* PatientDto.h */,
+				089A9BEF1CEA4AF300EE36F7 /* PersonContactInformationDto.h */,
+				089A9BF11CEA4AF300EE36F7 /* PersonNameDto.h */,
+				089A9BF31CEA4AF300EE36F7 /* PreferenceDto.h */,
+				089A9BF51CEA4AF300EE36F7 /* PrescriptionDto.h */,
+				089A9BF71CEA4AF300EE36F7 /* ProblemDto.h */,
+				089A9BF91CEA4AF300EE36F7 /* ProviderDto.h */,
+				089A9BFB1CEA4AF300EE36F7 /* ReactionDto.h */,
+				089A9BFD1CEA4AF300EE36F7 /* RegistrationPatientDto.h */,
+				089A9BFF1CEA4AF300EE36F7 /* RelatedMedicationDto.h */,
+				089A9C011CEA4AF300EE36F7 /* RelatedOrderDto.h */,
+				089A9C031CEA4AF300EE36F7 /* RoomDto.h */,
+				089A9C051CEA4AF300EE36F7 /* SigInstructionContentItemDto.h */,
+				089A9C071CEA4AF300EE36F7 /* SocialHistoryItemDto.h */,
+				089A9C091CEA4AF300EE36F7 /* SurgicalProcedureDto.h */,
+				089A9C0B1CEA4AF300EE36F7 /* TelephoneNumberDto.h */,
+				089A9B951CEA4AF300EE36F7 /* AddressDto.mm */,
+				089A9B971CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.mm */,
+				089A9B991CEA4AF300EE36F7 /* AllergyContentItemDto.mm */,
+				089A9B9B1CEA4AF300EE36F7 /* AllergyDto.mm */,
+				089A9B9F1CEA4AF300EE36F7 /* AppointmentDto.mm */,
+				089A9BA11CEA4AF300EE36F7 /* AppointmentMaterializationDto.mm */,
+				089A9BA31CEA4AF300EE36F7 /* BaseClinicalItemDto.mm */,
+				089A9BA51CEA4AF300EE36F7 /* BaseEntityDto.mm */,
+				089A9BA91CEA4AF300EE36F7 /* BaseItemDto.mm */,
+				089A9BAB1CEA4AF300EE36F7 /* BasePersonDto.mm */,
+				089A9BAD1CEA4AF300EE36F7 /* BasicRangeDto.mm */,
+				089A9BAF1CEA4AF300EE36F7 /* BillingAccountDto.mm */,
+				089A9BB11CEA4AF300EE36F7 /* BillingProcedureDto.mm */,
+				089A9BB31CEA4AF300EE36F7 /* CodeValueDto.mm */,
+				089A9BB51CEA4AF300EE36F7 /* CoordinatesDto.mm */,
+				089A9BB71CEA4AF300EE36F7 /* DemographicsDto.mm */,
+				089A9BBA1CEA4AF300EE36F7 /* EmergencyPatientDto.mm */,
+				089A9BBC1CEA4AF300EE36F7 /* ExaminationDto.mm */,
+				089A9BBE1CEA4AF300EE36F7 /* FamilyProblemDto.mm */,
+				089A9BC01CEA4AF300EE36F7 /* FeedbackDto.mm */,
+				089A9BC21CEA4AF300EE36F7 /* FrequencyContentItemDto.mm */,
+				089A9BC41CEA4AF300EE36F7 /* HealthRecordDto.mm */,
+				089A9BC61CEA4AF300EE36F7 /* ImageResourceDto.mm */,
+				089A9BC81CEA4AF300EE36F7 /* ImmunizationDto.mm */,
+				089A9BCC1CEA4AF300EE36F7 /* InsurancePolicyDto.mm */,
+				089A9BCE1CEA4AF300EE36F7 /* InvoiceDto.mm */,
+				089A9BD01CEA4AF300EE36F7 /* LocatableBaseEntityDto.mm */,
+				089A9BD21CEA4AF300EE36F7 /* MeasurementDto.mm */,
+				089A9BD41CEA4AF300EE36F7 /* MedicationContentItemDto.mm */,
+				089A9BD61CEA4AF300EE36F7 /* MedicationDto.mm */,
+				089A9BD81CEA4AF300EE36F7 /* NomenclatureDto.mm */,
+				089A9BDA1CEA4AF300EE36F7 /* NoteDto.mm */,
+				089A9BDC1CEA4AF300EE36F7 /* NoteReferenceDto.mm */,
+				089A9BDE1CEA4AF300EE36F7 /* ObsCatalogSetItemDto.mm */,
+				089A9BE01CEA4AF300EE36F7 /* ObservationDescriptionDto.mm */,
+				089A9BE21CEA4AF300EE36F7 /* ObservationDto.mm */,
+				089A9BE41CEA4AF300EE36F7 /* ObservationListDto.mm */,
+				089A9BE61CEA4AF300EE36F7 /* ObservationListItemDto.mm */,
+				089A9BE81CEA4AF300EE36F7 /* ObservationSetDescriptionDto.mm */,
+				089A9BEA1CEA4AF300EE36F7 /* OrderContentItemDto.mm */,
+				089A9BEC1CEA4AF300EE36F7 /* OrderDto.mm */,
+				089A9BEE1CEA4AF300EE36F7 /* PatientDto.mm */,
+				089A9BF01CEA4AF300EE36F7 /* PersonContactInformationDto.mm */,
+				089A9BF21CEA4AF300EE36F7 /* PersonNameDto.mm */,
+				089A9BF41CEA4AF300EE36F7 /* PreferenceDto.mm */,
+				089A9BF61CEA4AF300EE36F7 /* PrescriptionDto.mm */,
+				089A9BF81CEA4AF300EE36F7 /* ProblemDto.mm */,
+				089A9BFA1CEA4AF300EE36F7 /* ProviderDto.mm */,
+				089A9BFC1CEA4AF300EE36F7 /* ReactionDto.mm */,
+				089A9BFE1CEA4AF300EE36F7 /* RegistrationPatientDto.mm */,
+				089A9C001CEA4AF300EE36F7 /* RelatedMedicationDto.mm */,
+				089A9C021CEA4AF300EE36F7 /* RelatedOrderDto.mm */,
+				089A9C041CEA4AF300EE36F7 /* RoomDto.mm */,
+				089A9C061CEA4AF300EE36F7 /* SigInstructionContentItemDto.mm */,
+				089A9C081CEA4AF300EE36F7 /* SocialHistoryItemDto.mm */,
+				089A9C0A1CEA4AF300EE36F7 /* SurgicalProcedureDto.mm */,
+				089A9C0C1CEA4AF300EE36F7 /* TelephoneNumberDto.mm */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
 		0C6B012983F9FEF8CC65C1318F5F090C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -594,8 +1475,10 @@
 		B601AEC8B48E0A53E4CC82262D3F2121 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B3193BA268C332B75073679B68BB3229 /* SampleClass.mm */,
-				087CBDD11CDA317700DB8FAE /* SampleClass.h */,
+				089A9C861CEA4C1A00EE36F7 /* CppBondSerializer.h */,
+				089A9BB81CEA4AF300EE36F7 /* DtoType.h */,
+				089A9A341CEA3D4900EE36F7 /* cpp */,
+				089A9B931CEA49A600EE36F7 /* objc */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -731,8 +1614,171 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089A9B091CEA3D7300EE36F7 /* BillingAccount_reflection.h in Headers */,
+				089A9C871CEA4C1A00EE36F7 /* CppBondSerializer.h in Headers */,
+				089A9B401CEA3D7300EE36F7 /* Invoice_reflection.h in Headers */,
+				089A9B261CEA3D7300EE36F7 /* ImageResource_apply.h in Headers */,
+				089A9B831CEA3D7300EE36F7 /* SocialHistoryItem_types.h in Headers */,
+				089A9C581CEA4AF300EE36F7 /* ObservationDescriptionDto.h in Headers */,
+				089A9B681CEA3D7300EE36F7 /* Problem_reflection.h in Headers */,
+				089A9B4E1CEA3D7300EE36F7 /* Note_apply.h in Headers */,
+				089A9B381CEA3D7300EE36F7 /* InsurancePolicy_types.h in Headers */,
+				089A9AE61CEA3D7300EE36F7 /* Allergy_reflection.h in Headers */,
+				089A9B451CEA3D7300EE36F7 /* Measurement_reflection.h in Headers */,
+				089A9B031CEA3D7300EE36F7 /* BasePerson_apply.h in Headers */,
+				089A9B6F1CEA3D7300EE36F7 /* Provider_types.h in Headers */,
+				089A9B0D1CEA3D7300EE36F7 /* BillingProcedure_apply.h in Headers */,
+				089A9B5D1CEA3D7300EE36F7 /* Patient_apply.h in Headers */,
+				089A9AF01CEA3D7300EE36F7 /* AppointmentMaterialization_reflection.h in Headers */,
+				089A9B531CEA3D7300EE36F7 /* Observation_apply.h in Headers */,
+				089A9B8A1CEA3D7300EE36F7 /* UserAuthDataSchema_apply.h in Headers */,
+				089A9B591CEA3D7300EE36F7 /* Order_reflection.h in Headers */,
+				089A9B601CEA3D7300EE36F7 /* Patient_types.h in Headers */,
+				089A9B801CEA3D7300EE36F7 /* SocialHistoryItem_apply.h in Headers */,
+				089A9C0D1CEA4AF300EE36F7 /* AddressDto.h in Headers */,
+				089A9B851CEA3D7300EE36F7 /* SurgicalProcedure_apply.h in Headers */,
+				089A9B7C1CEA3D7300EE36F7 /* Room_reflection.h in Headers */,
+				089A9C701CEA4AF300EE36F7 /* ProblemDto.h in Headers */,
+				089A9B441CEA3D7300EE36F7 /* Measurement_apply.h in Headers */,
+				089A9B7B1CEA3D7300EE36F7 /* Room_apply.h in Headers */,
+				089A9C501CEA4AF300EE36F7 /* NomenclatureDto.h in Headers */,
+				089A9C6E1CEA4AF300EE36F7 /* PrescriptionDto.h in Headers */,
+				089A9B181CEA3D7300EE36F7 /* Examination_reflection.h in Headers */,
+				089A9B7E1CEA3D7300EE36F7 /* Room_types.h in Headers */,
+				089A9B811CEA3D7300EE36F7 /* SocialHistoryItem_reflection.h in Headers */,
+				089A9B221CEA3D7300EE36F7 /* HealthRecord_reflection.h in Headers */,
+				089A9C7E1CEA4AF300EE36F7 /* SigInstructionContentItemDto.h in Headers */,
+				089A9AF71CEA3D7300EE36F7 /* BaseClasses_types.h in Headers */,
+				089A9B921CEA3D7300EE36F7 /* UserSchema_types.h in Headers */,
+				089A9C381CEA4AF300EE36F7 /* FeedbackDto.h in Headers */,
+				089A9C841CEA4AF300EE36F7 /* TelephoneNumberDto.h in Headers */,
+				089A9AFF1CEA3D7300EE36F7 /* BaseObservationSet_reflection.h in Headers */,
+				089A9C311CEA4AF300EE36F7 /* DtoType.h in Headers */,
+				089A9C401CEA4AF300EE36F7 /* ImmunizationDto.h in Headers */,
+				089A9B121CEA3D7300EE36F7 /* Content_apply.h in Headers */,
+				089A9C601CEA4AF300EE36F7 /* ObservationSetDescriptionDto.h in Headers */,
+				089A9C2F1CEA4AF300EE36F7 /* DemographicsDto.h in Headers */,
+				089A9B0E1CEA3D7300EE36F7 /* BillingProcedure_reflection.h in Headers */,
+				089A9B361CEA3D7300EE36F7 /* InsurancePolicy_reflection.h in Headers */,
+				089A9B771CEA3D7300EE36F7 /* ReactionSignificance_reflection.h in Headers */,
+				089A9B271CEA3D7300EE36F7 /* ImageResource_reflection.h in Headers */,
+				089A9AFA1CEA3D7300EE36F7 /* BaseObservation_reflection.h in Headers */,
+				089A9B511CEA3D7300EE36F7 /* Note_types.h in Headers */,
+				089A9C781CEA4AF300EE36F7 /* RelatedMedicationDto.h in Headers */,
+				089A9C821CEA4AF300EE36F7 /* SurgicalProcedureDto.h in Headers */,
+				089A9C191CEA4AF300EE36F7 /* AppointmentMaterializationDto.h in Headers */,
+				089A9C2D1CEA4AF300EE36F7 /* CoordinatesDto.h in Headers */,
+				089A9AFC1CEA3D7300EE36F7 /* BaseObservation_types.h in Headers */,
+				089A9B061CEA3D7300EE36F7 /* BasePerson_types.h in Headers */,
+				089A9B1D1CEA3D7300EE36F7 /* FamilyProblem_reflection.h in Headers */,
+				089A9B331CEA3D7300EE36F7 /* IndexSearch_types.h in Headers */,
+				089A9B761CEA3D7300EE36F7 /* ReactionSignificance_apply.h in Headers */,
+				089A9C541CEA4AF300EE36F7 /* NoteReferenceDto.h in Headers */,
+				089A9C521CEA4AF300EE36F7 /* NoteDto.h in Headers */,
+				089A9B2C1CEA3D7300EE36F7 /* Immunization_reflection.h in Headers */,
+				089A9AE51CEA3D7300EE36F7 /* Allergy_apply.h in Headers */,
+				089A9B621CEA3D7300EE36F7 /* Prescription_apply.h in Headers */,
+				089A9C1B1CEA4AF300EE36F7 /* BaseClinicalItemDto.h in Headers */,
+				089A9B721CEA3D7300EE36F7 /* Reaction_reflection.h in Headers */,
+				089A9B651CEA3D7300EE36F7 /* Prescription_types.h in Headers */,
+				089A9B171CEA3D7300EE36F7 /* Examination_apply.h in Headers */,
+				089A9B901CEA3D7300EE36F7 /* UserSchema_reflection.h in Headers */,
+				089A9AF21CEA3D7300EE36F7 /* AppointmentMaterialization_types.h in Headers */,
+				089A9B5B1CEA3D7300EE36F7 /* Order_types.h in Headers */,
+				089A9C2B1CEA4AF300EE36F7 /* CodeValueDto.h in Headers */,
+				089A9C0F1CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.h in Headers */,
+				089A9B041CEA3D7300EE36F7 /* BasePerson_reflection.h in Headers */,
+				089A9B8F1CEA3D7300EE36F7 /* UserSchema_apply.h in Headers */,
+				089A9AE81CEA3D7300EE36F7 /* Allergy_types.h in Headers */,
+				089A9AEB1CEA3D7300EE36F7 /* Appointment_reflection.h in Headers */,
+				089A9B311CEA3D7300EE36F7 /* IndexSearch_reflection.h in Headers */,
+				089A9B3D1CEA3D7300EE36F7 /* InteractionSchema_types.h in Headers */,
+				089A9B631CEA3D7300EE36F7 /* Prescription_reflection.h in Headers */,
+				089A9B0B1CEA3D7300EE36F7 /* BillingAccount_types.h in Headers */,
+				089A9AED1CEA3D7300EE36F7 /* Appointment_types.h in Headers */,
+				089A9C4A1CEA4AF300EE36F7 /* MeasurementDto.h in Headers */,
+				089A9C3E1CEA4AF300EE36F7 /* ImageResourceDto.h in Headers */,
+				089A9C4C1CEA4AF300EE36F7 /* MedicationContentItemDto.h in Headers */,
+				089A9B881CEA3D7300EE36F7 /* SurgicalProcedure_types.h in Headers */,
+				089A9C561CEA4AF300EE36F7 /* ObsCatalogSetItemDto.h in Headers */,
+				089A9B3F1CEA3D7300EE36F7 /* Invoice_apply.h in Headers */,
+				089A9B421CEA3D7300EE36F7 /* Invoice_types.h in Headers */,
+				089A9AF91CEA3D7300EE36F7 /* BaseObservation_apply.h in Headers */,
+				089A9B8B1CEA3D7300EE36F7 /* UserAuthDataSchema_reflection.h in Headers */,
+				089A9C341CEA4AF300EE36F7 /* ExaminationDto.h in Headers */,
+				089A9B151CEA3D7300EE36F7 /* Content_types.h in Headers */,
+				089A9C441CEA4AF300EE36F7 /* InsurancePolicyDto.h in Headers */,
+				089A9B561CEA3D7300EE36F7 /* Observation_types.h in Headers */,
+				089A9C641CEA4AF300EE36F7 /* OrderDto.h in Headers */,
+				089A9B1F1CEA3D7300EE36F7 /* FamilyProblem_types.h in Headers */,
+				089A9C681CEA4AF300EE36F7 /* PersonContactInformationDto.h in Headers */,
+				089A9C131CEA4AF300EE36F7 /* AllergyDto.h in Headers */,
+				089A9C111CEA4AF300EE36F7 /* AllergyContentItemDto.h in Headers */,
+				089A9C6A1CEA4AF300EE36F7 /* PersonNameDto.h in Headers */,
+				089A9B3A1CEA3D7300EE36F7 /* InteractionSchema_apply.h in Headers */,
+				089A9B6D1CEA3D7300EE36F7 /* Provider_reflection.h in Headers */,
+				089A9B3B1CEA3D7300EE36F7 /* InteractionSchema_reflection.h in Headers */,
+				089A9C7C1CEA4AF300EE36F7 /* RoomDto.h in Headers */,
+				089A9C761CEA4AF300EE36F7 /* RegistrationPatientDto.h in Headers */,
+				089A9B791CEA3D7300EE36F7 /* ReactionSignificance_types.h in Headers */,
+				089A9C5C1CEA4AF300EE36F7 /* ObservationListDto.h in Headers */,
+				089A9C5A1CEA4AF300EE36F7 /* ObservationDto.h in Headers */,
+				089A9C3A1CEA4AF300EE36F7 /* FrequencyContentItemDto.h in Headers */,
+				089A9C7A1CEA4AF300EE36F7 /* RelatedOrderDto.h in Headers */,
+				089A9C231CEA4AF300EE36F7 /* BasePersonDto.h in Headers */,
+				089A9B471CEA3D7300EE36F7 /* Measurement_types.h in Headers */,
+				089A9B6A1CEA3D7300EE36F7 /* Problem_types.h in Headers */,
+				089A9C171CEA4AF300EE36F7 /* AppointmentDto.h in Headers */,
+				089A9B5E1CEA3D7300EE36F7 /* Patient_reflection.h in Headers */,
+				089A9B081CEA3D7300EE36F7 /* BillingAccount_apply.h in Headers */,
+				089A9B541CEA3D7300EE36F7 /* Observation_reflection.h in Headers */,
+				089A9AF41CEA3D7300EE36F7 /* BaseClasses_apply.h in Headers */,
+				089A9AFE1CEA3D7300EE36F7 /* BaseObservationSet_apply.h in Headers */,
+				089A9B861CEA3D7300EE36F7 /* SurgicalProcedure_reflection.h in Headers */,
+				089A9B351CEA3D7300EE36F7 /* InsurancePolicy_apply.h in Headers */,
+				089A9B2B1CEA3D7300EE36F7 /* Immunization_apply.h in Headers */,
+				089A9C621CEA4AF300EE36F7 /* OrderContentItemDto.h in Headers */,
 				CA5CCC0DD054B281F9BC5182482DBEEE /* PatientLib-umbrella.h in Headers */,
-				087CBDD21CDA317700DB8FAE /* SampleClass.h in Headers */,
+				089A9C211CEA4AF300EE36F7 /* BaseItemDto.h in Headers */,
+				089A9C661CEA4AF300EE36F7 /* PatientDto.h in Headers */,
+				089A9B2E1CEA3D7300EE36F7 /* Immunization_types.h in Headers */,
+				089A9B211CEA3D7300EE36F7 /* HealthRecord_apply.h in Headers */,
+				089A9B711CEA3D7300EE36F7 /* Reaction_apply.h in Headers */,
+				089A9C461CEA4AF300EE36F7 /* InvoiceDto.h in Headers */,
+				089A9C361CEA4AF300EE36F7 /* FamilyProblemDto.h in Headers */,
+				089A9B1C1CEA3D7300EE36F7 /* FamilyProblem_apply.h in Headers */,
+				089A9B291CEA3D7300EE36F7 /* ImageResource_types.h in Headers */,
+				089A9C481CEA4AF300EE36F7 /* LocatableBaseEntityDto.h in Headers */,
+				089A9B4A1CEA3D7300EE36F7 /* Medication_reflection.h in Headers */,
+				089A9AF51CEA3D7300EE36F7 /* BaseClasses_reflection.h in Headers */,
+				089A9B1A1CEA3D7300EE36F7 /* Examination_types.h in Headers */,
+				089A9B8D1CEA3D7300EE36F7 /* UserAuthDataSchema_types.h in Headers */,
+				089A9C4E1CEA4AF300EE36F7 /* MedicationDto.h in Headers */,
+				089A9B581CEA3D7300EE36F7 /* Order_apply.h in Headers */,
+				089A9B741CEA3D7300EE36F7 /* Reaction_types.h in Headers */,
+				089A9C721CEA4AF300EE36F7 /* ProviderDto.h in Headers */,
+				089A9C801CEA4AF300EE36F7 /* SocialHistoryItemDto.h in Headers */,
+				089A9B101CEA3D7300EE36F7 /* BillingProcedure_types.h in Headers */,
+				089A9AEF1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.h in Headers */,
+				089A9C251CEA4AF300EE36F7 /* BasicRangeDto.h in Headers */,
+				089A9C321CEA4AF300EE36F7 /* EmergencyPatientDto.h in Headers */,
+				089A9B4C1CEA3D7300EE36F7 /* Medication_types.h in Headers */,
+				089A9C271CEA4AF300EE36F7 /* BillingAccountDto.h in Headers */,
+				089A9C5E1CEA4AF300EE36F7 /* ObservationListItemDto.h in Headers */,
+				089A9B131CEA3D7300EE36F7 /* Content_reflection.h in Headers */,
+				089A9B4F1CEA3D7300EE36F7 /* Note_reflection.h in Headers */,
+				089A9B671CEA3D7300EE36F7 /* Problem_apply.h in Headers */,
+				089A9C3C1CEA4AF300EE36F7 /* HealthRecordDto.h in Headers */,
+				089A9B301CEA3D7300EE36F7 /* IndexSearch_apply.h in Headers */,
+				089A9AEA1CEA3D7300EE36F7 /* Appointment_apply.h in Headers */,
+				089A9B241CEA3D7300EE36F7 /* HealthRecord_types.h in Headers */,
+				089A9C1D1CEA4AF300EE36F7 /* BaseEntityDto.h in Headers */,
+				089A9C6C1CEA4AF300EE36F7 /* PreferenceDto.h in Headers */,
+				089A9B011CEA3D7300EE36F7 /* BaseObservationSet_types.h in Headers */,
+				089A9B6C1CEA3D7300EE36F7 /* Provider_apply.h in Headers */,
+				089A9C291CEA4AF300EE36F7 /* BillingProcedureDto.h in Headers */,
+				089A9B491CEA3D7300EE36F7 /* Medication_apply.h in Headers */,
+				089A9C741CEA4AF300EE36F7 /* ReactionDto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,8 +1925,134 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089A9C451CEA4AF300EE36F7 /* InsurancePolicyDto.mm in Sources */,
+				089A9C851CEA4AF300EE36F7 /* TelephoneNumberDto.mm in Sources */,
+				089A9C711CEA4AF300EE36F7 /* ProblemDto.mm in Sources */,
+				089A9C1E1CEA4AF300EE36F7 /* BaseEntityDto.mm in Sources */,
+				089A9C301CEA4AF300EE36F7 /* DemographicsDto.mm in Sources */,
+				089A9B5A1CEA3D7300EE36F7 /* Order_types.cpp in Sources */,
+				089A9B571CEA3D7300EE36F7 /* Order_apply.cpp in Sources */,
+				089A9B071CEA3D7300EE36F7 /* BillingAccount_apply.cpp in Sources */,
+				089A9C1A1CEA4AF300EE36F7 /* AppointmentMaterializationDto.mm in Sources */,
+				089A9B0F1CEA3D7300EE36F7 /* BillingProcedure_types.cpp in Sources */,
+				089A9B161CEA3D7300EE36F7 /* Examination_apply.cpp in Sources */,
+				089A9C4F1CEA4AF300EE36F7 /* MedicationDto.mm in Sources */,
+				089A9C371CEA4AF300EE36F7 /* FamilyProblemDto.mm in Sources */,
+				089A9B111CEA3D7300EE36F7 /* Content_apply.cpp in Sources */,
+				089A9B7F1CEA3D7300EE36F7 /* SocialHistoryItem_apply.cpp in Sources */,
+				089A9AEE1CEA3D7300EE36F7 /* AppointmentMaterialization_apply.cpp in Sources */,
+				089A9B641CEA3D7300EE36F7 /* Prescription_types.cpp in Sources */,
+				089A9B501CEA3D7300EE36F7 /* Note_types.cpp in Sources */,
+				089A9C101CEA4AF300EE36F7 /* AdministrationRouteAndFormDto.mm in Sources */,
+				089A9C2C1CEA4AF300EE36F7 /* CodeValueDto.mm in Sources */,
+				089A9AFB1CEA3D7300EE36F7 /* BaseObservation_types.cpp in Sources */,
+				089A9C3F1CEA4AF300EE36F7 /* ImageResourceDto.mm in Sources */,
+				089A9B871CEA3D7300EE36F7 /* SurgicalProcedure_types.cpp in Sources */,
+				089A9C1C1CEA4AF300EE36F7 /* BaseClinicalItemDto.mm in Sources */,
+				089A9C391CEA4AF300EE36F7 /* FeedbackDto.mm in Sources */,
+				089A9B6E1CEA3D7300EE36F7 /* Provider_types.cpp in Sources */,
+				089A9C3D1CEA4AF300EE36F7 /* HealthRecordDto.mm in Sources */,
+				089A9C4D1CEA4AF300EE36F7 /* MedicationContentItemDto.mm in Sources */,
+				089A9B751CEA3D7300EE36F7 /* ReactionSignificance_apply.cpp in Sources */,
+				089A9C181CEA4AF300EE36F7 /* AppointmentDto.mm in Sources */,
+				089A9B0A1CEA3D7300EE36F7 /* BillingAccount_types.cpp in Sources */,
+				089A9B731CEA3D7300EE36F7 /* Reaction_types.cpp in Sources */,
+				089A9B3C1CEA3D7300EE36F7 /* InteractionSchema_types.cpp in Sources */,
+				089A9B2F1CEA3D7300EE36F7 /* IndexSearch_apply.cpp in Sources */,
+				089A9B281CEA3D7300EE36F7 /* ImageResource_types.cpp in Sources */,
+				089A9C141CEA4AF300EE36F7 /* AllergyDto.mm in Sources */,
+				089A9B0C1CEA3D7300EE36F7 /* BillingProcedure_apply.cpp in Sources */,
+				089A9C491CEA4AF300EE36F7 /* LocatableBaseEntityDto.mm in Sources */,
+				089A9C571CEA4AF300EE36F7 /* ObsCatalogSetItemDto.mm in Sources */,
+				089A9B481CEA3D7300EE36F7 /* Medication_apply.cpp in Sources */,
+				089A9C5B1CEA4AF300EE36F7 /* ObservationDto.mm in Sources */,
+				089A9B781CEA3D7300EE36F7 /* ReactionSignificance_types.cpp in Sources */,
+				089A9C511CEA4AF300EE36F7 /* NomenclatureDto.mm in Sources */,
+				089A9B5C1CEA3D7300EE36F7 /* Patient_apply.cpp in Sources */,
+				089A9C5D1CEA4AF300EE36F7 /* ObservationListDto.mm in Sources */,
+				089A9C351CEA4AF300EE36F7 /* ExaminationDto.mm in Sources */,
+				089A9C551CEA4AF300EE36F7 /* NoteReferenceDto.mm in Sources */,
+				089A9AFD1CEA3D7300EE36F7 /* BaseObservationSet_apply.cpp in Sources */,
+				089A9B2A1CEA3D7300EE36F7 /* Immunization_apply.cpp in Sources */,
+				089A9AF31CEA3D7300EE36F7 /* BaseClasses_apply.cpp in Sources */,
+				089A9B5F1CEA3D7300EE36F7 /* Patient_types.cpp in Sources */,
+				089A9AF81CEA3D7300EE36F7 /* BaseObservation_apply.cpp in Sources */,
+				089A9B371CEA3D7300EE36F7 /* InsurancePolicy_types.cpp in Sources */,
+				089A9C6D1CEA4AF300EE36F7 /* PreferenceDto.mm in Sources */,
+				089A9B691CEA3D7300EE36F7 /* Problem_types.cpp in Sources */,
+				089A9B321CEA3D7300EE36F7 /* IndexSearch_types.cpp in Sources */,
+				089A9C5F1CEA4AF300EE36F7 /* ObservationListItemDto.mm in Sources */,
+				089A9B391CEA3D7300EE36F7 /* InteractionSchema_apply.cpp in Sources */,
+				089A9C651CEA4AF300EE36F7 /* OrderDto.mm in Sources */,
+				089A9AE91CEA3D7300EE36F7 /* Appointment_apply.cpp in Sources */,
+				089A9B001CEA3D7300EE36F7 /* BaseObservationSet_types.cpp in Sources */,
+				089A9B611CEA3D7300EE36F7 /* Prescription_apply.cpp in Sources */,
+				089A9C3B1CEA4AF300EE36F7 /* FrequencyContentItemDto.mm in Sources */,
+				089A9C411CEA4AF300EE36F7 /* ImmunizationDto.mm in Sources */,
+				089A9C751CEA4AF300EE36F7 /* ReactionDto.mm in Sources */,
+				089A9B551CEA3D7300EE36F7 /* Observation_types.cpp in Sources */,
+				089A9B841CEA3D7300EE36F7 /* SurgicalProcedure_apply.cpp in Sources */,
+				089A9B8E1CEA3D7300EE36F7 /* UserSchema_apply.cpp in Sources */,
 				CD0CAEA729E054F83CAC7D2FEFEC109A /* PatientLib-dummy.m in Sources */,
-				4ED45FEAE621068C48E5CDA4A877A4A0 /* SampleClass.mm in Sources */,
+				089A9B7A1CEA3D7300EE36F7 /* Room_apply.cpp in Sources */,
+				089A9C4B1CEA4AF300EE36F7 /* MeasurementDto.mm in Sources */,
+				089A9C611CEA4AF300EE36F7 /* ObservationSetDescriptionDto.mm in Sources */,
+				089A9AE71CEA3D7300EE36F7 /* Allergy_types.cpp in Sources */,
+				089A9B231CEA3D7300EE36F7 /* HealthRecord_types.cpp in Sources */,
+				089A9C691CEA4AF300EE36F7 /* PersonContactInformationDto.mm in Sources */,
+				089A9C771CEA4AF300EE36F7 /* RegistrationPatientDto.mm in Sources */,
+				089A9C471CEA4AF300EE36F7 /* InvoiceDto.mm in Sources */,
+				089A9C331CEA4AF300EE36F7 /* EmergencyPatientDto.mm in Sources */,
+				089A9C261CEA4AF300EE36F7 /* BasicRangeDto.mm in Sources */,
+				089A9B021CEA3D7300EE36F7 /* BasePerson_apply.cpp in Sources */,
+				089A9B4B1CEA3D7300EE36F7 /* Medication_types.cpp in Sources */,
+				089A9C7B1CEA4AF300EE36F7 /* RelatedOrderDto.mm in Sources */,
+				089A9B701CEA3D7300EE36F7 /* Reaction_apply.cpp in Sources */,
+				089A9C7D1CEA4AF300EE36F7 /* RoomDto.mm in Sources */,
+				089A9C671CEA4AF300EE36F7 /* PatientDto.mm in Sources */,
+				089A9C731CEA4AF300EE36F7 /* ProviderDto.mm in Sources */,
+				089A9B051CEA3D7300EE36F7 /* BasePerson_types.cpp in Sources */,
+				089A9C221CEA4AF300EE36F7 /* BaseItemDto.mm in Sources */,
+				089A9B141CEA3D7300EE36F7 /* Content_types.cpp in Sources */,
+				089A9B251CEA3D7300EE36F7 /* ImageResource_apply.cpp in Sources */,
+				089A9B911CEA3D7300EE36F7 /* UserSchema_types.cpp in Sources */,
+				089A9B431CEA3D7300EE36F7 /* Measurement_apply.cpp in Sources */,
+				089A9AF11CEA3D7300EE36F7 /* AppointmentMaterialization_types.cpp in Sources */,
+				089A9C241CEA4AF300EE36F7 /* BasePersonDto.mm in Sources */,
+				089A9C6F1CEA4AF300EE36F7 /* PrescriptionDto.mm in Sources */,
+				089A9B461CEA3D7300EE36F7 /* Measurement_types.cpp in Sources */,
+				089A9B7D1CEA3D7300EE36F7 /* Room_types.cpp in Sources */,
+				089A9C811CEA4AF300EE36F7 /* SocialHistoryItemDto.mm in Sources */,
+				089A9C0E1CEA4AF300EE36F7 /* AddressDto.mm in Sources */,
+				089A9C7F1CEA4AF300EE36F7 /* SigInstructionContentItemDto.mm in Sources */,
+				089A9B6B1CEA3D7300EE36F7 /* Provider_apply.cpp in Sources */,
+				089A9AF61CEA3D7300EE36F7 /* BaseClasses_types.cpp in Sources */,
+				089A9B3E1CEA3D7300EE36F7 /* Invoice_apply.cpp in Sources */,
+				089A9B8C1CEA3D7300EE36F7 /* UserAuthDataSchema_types.cpp in Sources */,
+				089A9B1B1CEA3D7300EE36F7 /* FamilyProblem_apply.cpp in Sources */,
+				089A9C631CEA4AF300EE36F7 /* OrderContentItemDto.mm in Sources */,
+				089A9AE41CEA3D7300EE36F7 /* Allergy_apply.cpp in Sources */,
+				089A9B201CEA3D7300EE36F7 /* HealthRecord_apply.cpp in Sources */,
+				089A9C121CEA4AF300EE36F7 /* AllergyContentItemDto.mm in Sources */,
+				089A9B1E1CEA3D7300EE36F7 /* FamilyProblem_types.cpp in Sources */,
+				089A9C831CEA4AF300EE36F7 /* SurgicalProcedureDto.mm in Sources */,
+				089A9B661CEA3D7300EE36F7 /* Problem_apply.cpp in Sources */,
+				089A9B821CEA3D7300EE36F7 /* SocialHistoryItem_types.cpp in Sources */,
+				089A9C2A1CEA4AF300EE36F7 /* BillingProcedureDto.mm in Sources */,
+				089A9C281CEA4AF300EE36F7 /* BillingAccountDto.mm in Sources */,
+				089A9B411CEA3D7300EE36F7 /* Invoice_types.cpp in Sources */,
+				089A9B341CEA3D7300EE36F7 /* InsurancePolicy_apply.cpp in Sources */,
+				089A9AEC1CEA3D7300EE36F7 /* Appointment_types.cpp in Sources */,
+				089A9C791CEA4AF300EE36F7 /* RelatedMedicationDto.mm in Sources */,
+				089A9C6B1CEA4AF300EE36F7 /* PersonNameDto.mm in Sources */,
+				089A9C2E1CEA4AF300EE36F7 /* CoordinatesDto.mm in Sources */,
+				089A9C591CEA4AF300EE36F7 /* ObservationDescriptionDto.mm in Sources */,
+				089A9B191CEA3D7300EE36F7 /* Examination_types.cpp in Sources */,
+				089A9B521CEA3D7300EE36F7 /* Observation_apply.cpp in Sources */,
+				089A9C531CEA4AF300EE36F7 /* NoteDto.mm in Sources */,
+				089A9B4D1CEA3D7300EE36F7 /* Note_apply.cpp in Sources */,
+				089A9B891CEA3D7300EE36F7 /* UserAuthDataSchema_apply.cpp in Sources */,
+				089A9B2D1CEA3D7300EE36F7 /* Immunization_types.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1077,10 +2249,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PatientLib/PatientLib-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/PatientLib\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"/usr/local/include\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/PatientLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MODULEMAP_FILE = "Target Support Files/PatientLib/PatientLib.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PatientLib;
@@ -1104,10 +2283,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PatientLib/PatientLib-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/PatientLib\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"/usr/local/include\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/PatientLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MODULEMAP_FILE = "Target Support Files/PatientLib/PatientLib.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = PatientLib;
